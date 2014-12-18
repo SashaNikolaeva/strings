@@ -1,0 +1,3417 @@
+;;### Language File for Maxthon ###
+
+;;=============================================================================
+;; Shared Strings
+;;-----------------------------------------------------------------------------
+;; If a language string cannot be found in corresponding section,
+;; the program will lookup the Key in this section instead.
+;;=============================================================================
+[main]
+
+;;-----------------------------------------------------------------------------
+;; Language Info
+;;-----------------------------------------------------------------------------
+Language.Name=English
+Language.EnglishName=English
+Language.Translator=Maxthon
+Language.Version=4.4.2.0
+Language.GetMore=Get more…
+Language.Language=Language
+Language.Author=Translator
+Language.VersionText=Version
+
+
+;;-----------------------------------------------------------------------------
+;; Shared
+;;-----------------------------------------------------------------------------
+Message=Message
+Error=Error
+Warning=Warning
+
+OK=OK
+Cancel=Cancel
+
+Open=Open
+Close=Close
+Browse=Browse
+Select=Select
+Done=Done
+
+Yes=Yes
+No=No
+
+ON=ON
+OFF=OFF
+
+Apply=Apply
+Save=Save
+
+Pause=Pause
+Resume=Resume
+Continue=Continue
+Retry=Retry
+Abort=Cancel
+Stop=Stop
+
+Previous=Previous
+Next=Next
+Finish=Finish
+
+Add=Add
+Remove=Remove
+New=New
+Edit=Edit
+Modify=Modify
+Rename=Rename
+Delete=Delete
+Undo=Undo
+Cut=Cut
+Copy=Copy
+Paste=Paste
+
+Search=Search
+SelectAll=Select all
+
+None=None
+Default=Default
+AutoDetect=Auto detect
+
+Disable=Disable
+Enable=Enable
+
+More=More
+Less=Less
+Options=Options
+Manage=Manage
+Settings=Settings
+
+Image=Image
+Images=Images
+File=File
+Folder=Folder
+
+
+LeftClick=Left-Click
+RightClick=Right-Click
+
+MoreCommands=More commands
+
+MouseGesture=Mouse Gestures
+
+Unknown=Unknown
+
+
+;;-----------------------------------------------------------------------------
+;; Commands
+;;-----------------------------------------------------------------------------
+;; Mapped to the Command List of Skin System
+;;-----------------------------------------------------------------------------
+addressBox.focus=Focus on address bar
+addressBox.go=Go
+addressBox.search=Search text in address bar
+addressBox.showList=Show address bar history
+
+searchBox.focus=Focus on search box
+searchBox.go=Search
+search.add=Add search engine
+
+tab.new=New tab
+tab.next=Next tab
+tab.previous=Previous tab
+tab.close=Close tab
+tab.closeCurrent=Close current tab
+tab.closeAll=Close all
+tab.closeOther=Close others
+tab.closeLeft=Close tabs to the left
+tab.closeRight=Close tabs to the right
+tab.lock=Lock tab
+tab.unlock=Unlock tab
+tab.duplicate=Duplicate tab
+
+nav.home=Home page
+nav.pasteAndGo=Paste and Go
+nav.pasteAndSearch=Paste and Search
+nav.refresh=Refresh
+nav.refreshAll=Refresh all
+nav.forceRefresh=Force refresh
+nav.stop=Stop
+nav.stopAll=Stop all
+
+page.find=Find in page
+page.save=Save as...
+page.saveAsApp=Save as Quick App...
+page.saveAsImage=Save as image
+page.print=Print...
+page.printPreview=Print preview...
+page.copyUrl=Copy URL
+page.copyTitleAndUrl=Copy title and URL
+page.setHomePage=Set as home page
+page.setAllPagesAsHome=Set all current pages as home pages
+page.switchEngine=Switch browser core
+page.viewSource=View source
+page.up=Page Up
+page.down=Page Down
+page.top=Page Top
+page.bottom=Page Bottom
+
+magicFill.save=Save form
+magicFill.fill=Fill form
+
+zoom.in=Zoom In
+zoom.out=Zoom Out
+zoom.actual=Actual size
+
+history.back=Back
+history.forward=Forward
+history.restoreLast=Restore last closed page
+history.clearRecentList=Clear recent list
+history.openClearDialog=Clear browsing data
+history.open=History
+
+fav.openManager=Favorites Manager
+fav.addAll=Add all pages to Favorites
+fav.item.add=Add to Favorites...
+fav.additem.SameTitleFavItem=An URL with the same title already exists, overwrite it?
+fav.item.addToFolder=Add to this folder
+fav.item.replace=Replace with current page
+fav.item.copyUrl=Copy URL
+fav.item.copyTitleAndUrl=Copy title and URL
+fav.item.toggleMostFav=Mark/Unmark as most favorite
+fav.folder.add=New Folder
+fav.folder.openAll=Open all in this folder
+fav.folder.sortByTitle=Sort by title
+fav.folder.sortByVisitCount=Sort by visits
+fav.folder.toGroup=Convert to Quick Group
+fav.folder.newFolder=Create folder
+fav.group.open=Open all links
+fav.group.toFolder=Convert to folder
+fav.updateSiteIcon=Update site icon
+
+translate.selectedText=Translate selected text
+translate.page=Translate page
+
+snapScreen.region=Snap region
+snapScreen.page=Snap whole page
+snapScreen.help=Help
+
+fileSniffer.open=Resource Sniffer
+
+popupBlocker.toggle=Toggle Popup Blocker
+popupBlocker.blockcursite=Toggle Popup Blocker for this website
+adHunter.toggle=Toggle Ad Blocker for this website
+adHunter.editRule=Edit filter rules
+adHunter.enterClickMode=Block ads by click
+adHunter.showLog=View AdBlock log
+adHunter.SubscribeRule=Subscribe to AdBlock rules
+
+downloader.open=Download Manager
+downloader.addTask=Add download task...
+
+option.open=Settings
+
+devtools.open=Developer Tools
+
+cmd.userGuide=What's new
+cmd.help=Help Desk
+cmd.visitWebsite=Maxthon Website
+cmd.visitForum=Maxthon Community
+cmd.sendFeedback=Send feedback
+cmd.checkUpdate=Check for updates
+cmd.updateNow=Update now
+cmd.updateRetry=Retry
+cmd.restartNow=Restart now
+cmd.about=About...
+cmd.uninstall=Uninstall
+cmd.exit=Exit
+cmd.setFavBarRootFolder=Set Favorites bar display folder
+cmd.mutePage=Mute
+cmd.openImportExportDialog=Import/Export user data
+cmd.openImportDialog=Import user data
+cmd.openExportDialog=Export user data
+cmd.openAboutLast=Last Session
+cmd.openFavMenu=Open Favorites menu
+cmd.clickFavMenuButton=Open Favorites menu
+cmd.openMainMenu=Open main menu
+cmd.lockBrowser=Lock Maxthon
+cmd.setDefault=Set as default browser
+
+app.launch.Collector=SkyNote
+sendTo.Collector=Send to SkyNote
+app.launch.FeedReader=Feed Reader(Beta)
+app.openManager=Extension Manager
+app.viewInfo=Details
+
+ui.fullScreen=Full Screen
+ui.splitScreen=Split Screen
+ui.customize=Customize UI
+
+sidebar.getApp=Get more apps...
+sidebar.showMore=View more apps
+sidebar.pinToDesktop=Pin Sidebar to desktop
+
+win.new=New window
+win.newPrivate=New private window
+win.newWorkspace=New session
+win.activateNext=Switch windows
+win.hide=Boss Key
+win.openSystemMenu=System menu
+win.maximize=Maximize
+win.restore=Restore
+win.minimize=Minimize
+win.close=Close
+
+user.showPanel=Open user panel
+user.login=Login
+user.logout=Logout
+user.edit.Avatar=Set avatar
+user.edit.Nickname=Change nickname
+user.edit.Profile=Account Settings
+user.bind.account=Bind account
+user.switch=Switch user account
+user.reconnect=Reconnect
+user.update=Update profile info
+
+sync.run=Sync data
+
+cmd.toggle.FavoritesBar=Show/Hide Favorites bar
+cmd.toggle.SearchBox=Show/Hide search box
+cmd.toggle.Sidebar=Show/Hide Sidebar
+
+readerMode.toggle=Reader Mode
+tab.toggleLock=Lock tab
+
+;;-----------------------------------------------------------------------------
+;; Objects
+;;-----------------------------------------------------------------------------
+;; Mapped to the Object List of Skin System
+;;-----------------------------------------------------------------------------
+tab.list=Tab list
+
+history.navList=Navigation History
+history.recentList=Recently visited pages
+
+proxy.list=Proxy
+proxy.none=None
+proxy.useIE=Use IE proxy Settings
+proxy.enableProxy=Toggle proxy
+
+skin.list=Skins
+extension.list=Extensions
+
+language.list=Languages
+encoding.list=Encodings
+
+popupBlocker.list=Blocked popups
+popupBlocker.empty=No popup blocked
+
+quicktools.moreTools=Customize Quick Tools
+
+;;-----------------------------------------------------------------------------
+;; UI Strings
+;;-----------------------------------------------------------------------------
+;; Strings that can not be found in the Command List & Object List.
+;;-----------------------------------------------------------------------------
+MainMenu=Menu
+PageMenu=Page menu
+
+Sidebar=Sidebar
+Avatar=Avatar
+QuickTools=Quick Tools
+TabBar=Tab bar
+
+Account=Account
+Login.MaxthonPassport=Login to Maxthon Passport
+Login.LoginNow=Login now
+User.LoggingIn=Logging in...
+User.OfflineModeMessage=Connection lost. Offline Mode turned on.
+Sync.OK=Sync OK
+Sync.Error=Sync error
+Sync.Working=Synchronizing...
+Sync.RunNow=Sync now
+Sync.Details=View details
+Sync.Retry=Retry
+Sync.Disabled=Sync disabled
+Sync.EnableNow=Enable
+CustomizeUI=Customize UI
+
+NewWindow.Normal=Normal
+NewWindow.Private=Private
+NewWindow.Session=Session
+SaveAs.Image=Image
+SaveAs.File=File
+
+Menu.File=File
+Menu.Page=Page
+Menu.Tools=Tools
+Menu.View=View
+Menu.Help=Help
+Menu.Favorites=Favorites
+Menu.History=History
+Menu.Downloads=Downloads
+Menu.Options=Settings
+About.Update=Update available
+
+Address=Address
+Favorites=Favorites
+MyFavorites=My Favorites
+FavoritesBar=Favorites bar
+TabOptions=Tab options
+HomePageOptions=Home page Settings
+StatusBar=Status bar
+HomeButton=Home button
+RestoreLastButton=Restore Last Closed Page button
+HistoryButton=History button
+SwitchCoreButton=Switch Browser Core button
+ProxyButton=Proxy button
+AutoHideAddressbar=Hide address bar
+
+Sidebar.Show=Show Sidebar
+Sidebar.Hide=Hide Sidebar
+
+FavBar.Show=Show Favorites bar
+FavBar.Hide=Hide Favorites bar
+
+TabBar.New=Left click: New tab<br/>Right click: Paste & go
+
+Add.Menu=Add to Favorites / Share
+Add.AndShare=Add & share
+Add.Title=Title
+Add.URL=URL
+Add.ToFav=Add to Favorites
+Add.FavAdded=Favorite added
+Add.SelectFavFolder=Select target folder
+Add.ToQuickAccess=Add to Quick Access
+Add.ToDesktop=Create Desktop Shortcut
+Add.CloudSend=Cloud Push...
+
+SiteSafety.ClickToView=Click to view details
+SiteSafety.Secure=This site uses SSL connections.
+SiteSafety.Safe=This site has been verified as 'safe'.
+SiteSafety.SecureAndSafe=This site uses SSL connections and has been verified as 'safe'.
+SiteSafety.Insecure=This site has an invalid certificate.
+SiteSafety.Danger=This site has been flagged as 'dangerous'.
+
+InPrivateMode=You are browsing in Private Mode.
+
+Collector=SkyNote
+Translate=Translate
+SnapScreen=Snap
+
+PopupBlocker=Popup Blocker
+PopupBlocker.Enable=Enable Popup Blocker
+PopupBlocker.BlockCurrentSite=Block popup for this website
+AdHunter=Adblock Plus
+PageAdsFilter=Ad filter
+AdHunter.Enable=Block ads on this website
+AdHunter.SubscribeRule=Subscribe to AdHunter rules
+AdHunter.Blocked=Some of this page's popups or ads are blocked.
+AdHunter.ClickToView=Click to view details
+MuteControl=Mute control
+PageMuted=Muted
+Zoom=Zoom
+
+AdBlock.AdblockOptions=AdBlock Plus
+AdBlock.Enable=Block ads on this website
+AdBlock.Total=Total ads blocked
+AdBlock.Share=Share this number
+AdBlock.showLog=View filter log
+AdBlock.editRule=Edit filters
+AdBlock.options=AdBlock Plus Options
+
+Tab.Preset=New tab
+HiddenTabList=Retracted tabs
+
+AddressBox.Prompt=Type to search or visit...
+
+UrlList.Visit=Visit:&nbsp;
+UrlList.Search=Search %keyword% with %search%
+UrlList.More=Show more
+UrlList.Less=Show less
+UrlList.Clear=Clear all
+
+Feed.Discovered=Feeds discovered
+Feed.List=Feeds Discovered in current page
+
+FileSniffer.Discovered=Extract page resources
+
+SearchBox=Search box
+SearchBox.Select=Select default search engine
+
+Page.InTurboMode=You are currently viewing this page in Ultra Mode.
+Page.InCompMode=You are currently viewing this page in Retro Mode.
+
+Page.ClickToSwitchCore=Click to switch between Webkit or Trident.
+
+FullScreen.Exit=Click Here to quit full screen
+
+SplitScreen.Enabled=You are using Split Screen Mode.
+SplitScreen.Shortcut=Mode toggle shortcut:
+
+ReaderMode.Available=Reader Mode
+
+Proxy.Enabled=You are currently visiting this page via proxy server.
+Proxy.ClickToSwitch=Click to switch proxy.
+Proxy.TurnOff=Disable proxy
+
+Core.UltraMode=Ultra
+Core.CompMode=Retro
+
+Config=Config
+
+QuickSearchTip = Enter "%hotkey%" + Space = "%EnginName%"
+
+;;=============================================================================
+;; data recovery
+;;=============================================================================
+[data-recovery]
+ASK_DATA_RECOVERY=Database is destroyed, rebuild it?
+FileName=File name
+ErrorCode=Error code
+Type.Config=Options
+Type.AdFilter=AdBlock
+Type.CmpUrl=Compatible URL
+Type.Cookie=Cookie
+Type.Favorite=Favorites
+Type.History=History
+Type.LocalStorage=Local storage
+Type.MagicFill=Magic Fill
+Type.QuickAccess=Quick Access
+Type.SmartUrl=Smart URL
+Type.SvrInfo=Server information
+Type.UserDict=User Dictionary
+Type.PicLib=Image Library
+Type.SiteIcon=Site icon
+
+
+;;=============================================================================
+;; Message Strings
+;;-----------------------------------------------------------------------------
+;; These strings are used by the main program
+;;=============================================================================
+[messages]
+ASK_MOVE_TO_BIN=Are you sure you want to move this item to the Recycle bin?
+ASK_CLOSE_LOCKED_TAB=Are you sure you want to close this tab?\r\nClick OK to close it.
+ASK_SET_IMAGE_AS_BACKGROUND=Are you sure you want to replace your desktop wallpaper?
+
+
+;;=============================================================================
+;; Tray Icon
+;;=============================================================================
+[tray-icon]
+40001=Show/Hide Maxthon
+40002=Exit
+
+
+;;=============================================================================
+;; Quit Prompt Dialog
+;;=============================================================================
+[quit-prompt]
+Title=Maxthon Browser
+QuitPrompt=Do you want to close all tabs and exit Maxthon Browser?
+DoNotShowAgain=Do not ask again
+HasDownloadTask=Task(s) are currently in progress. Do you want to exit Maxthon and cancel it/them?
+
+
+
+;;=============================================================================
+;; About Dialog
+;;=============================================================================
+[about]
+SystemInformation=System information
+ChangeLog=Changelog
+OfficialWebsite=Website
+CopyrightNotice=Copyright notice
+Thanks=Special Thanks
+CopySysInfo=Copy to Clipboard
+GoBack=Go back
+Feedback=Feedback
+CheckUpdate=Checking updates...
+NoUpdate=Your browser is up to date.
+NewUpdate=Updates available!
+DownloadPre=Downloading update...
+Downloading=Downloading update...#PROGRESS#% (#SPEED#KB/s)
+DownloadFinish=Download completed. Please restart Maxthon to apply updates.
+DownloadError=Update failed, please try again later.
+ErrorCode=(Error code：#ERRCODE#)
+DownloadRetry=Retrying, please wait...
+
+;;=============================================================================
+;; Import/Export Dialog
+;;=============================================================================
+[import-export]
+ImportExportData=Import/Export user data
+CurrentAccount=Current account
+ImportBtn=Import
+
+ImportUserData=Import user data
+ExportFavorites=Export Favorites
+Back=Back
+
+ClickButtonToBeginImport=Click a button to begin import:
+ImportIEFav=Import IE Favorites
+ImportFromMX2=Import from Maxthon 2.x
+ImportFromMX3Shared=Import from Maxthon shared account
+ImportMX2Message=Favorites, Feed list, Magic Fill data, AdBlock rules, etc.
+ImportMX3SharedMessage=Favorites, Options, Quick Access, SkyNote, AdBlock rules, etc.
+ImportFromHtmlFile=Import Favorites from HTML File
+ImportHtmlMessage=Favorites exported from IE, Firefox, Chrome, Safari, etc.
+DeleteCurrentDataBeforeImport=Delete current data before import
+CreateStandaloneFolderForImport=Create standalone folder
+
+ImportFromBrowser=Import user data
+ImportDataFromIE=Import from IE
+ImportDataFromFirefox=Import from Firefox
+ImportDataFromChrome=Import from Chrome
+ImportOtherBrowserTitle=Import all your browsing data with one click
+ImportOtherBrowser=Import Favorites from
+ImportDataTitle=Import the data:
+InternetExplorer=IE
+Firefox=Firefox
+Chrome=Chrome
+IE=Internet Explorer
+
+ImportMxBrowser=Import from Maxthon
+Maxthon2=Maxthon 2.x
+Maxthon3SharedAccount=Maxthon Shared Account
+
+ImportFileOrFolder=Import Favorites from File/Folder
+HtmlFile=HTML file
+Folder=Folder
+ImportLocalFavFile=Import from Favorites folder
+
+ChooseExportMethod=Click to export:
+ExportToIEFav=Export to IE Favorites folder
+ExportToOtherFolder=Export your Favorites to the selected folder
+ExportOtherFolderMessage=You can export your Favorites to the selected folder.
+ExportToHtmlFile=Export to HTML file
+ExportHtmlMessage=Exported HTML file can be used as your Favorites backup.
+
+ChooseImportMX2Account=Choose the 2.x account to import from:
+SharedAccount=Shared account
+MatchMX3Account=Match current account:
+NotFound=Not found
+
+ChooseDataToImport=Choose the data you want to import:
+Favorites=Favorites
+MagicFillData=Magic Fill data
+CollectorData=SkyNote data
+AdHunterRules=AdBlock rules
+FavoritesAndBookmark=Favorites/Bookmarks
+HomePage=Homepage
+DefaultHomePage=Default homepage
+BrowserHistory=Browsing history
+DataInAddressBar=Address bar history
+AutoFill=Autofills
+WebSitePassWordRecord=Saved passwords
+Addons=Extensions
+Skins=Skins
+CanNotBeImport=(Import failed)
+LocalPath=Local path
+ImportSuccess=Import successful!
+
+QuickAccess=Quick Access
+OnlineNotepad=SkyNote
+AdFilterRule=Ads blocking rules
+
+ImportingMessage=Importing... Please wait.
+
+ImportFailed=Import failed
+ImportFailedMessage=Sorry. Data import failed.
+
+ExportFailed=Export failed
+ExportFailedMessage=Sorry. Data export failed.
+
+Done=Done
+ImportedOK=Data successfully imported.
+
+FileExportedTo=File has been exported to:
+
+Import=Import
+OpenFolder=Open folder
+
+ExportFileName=Fav
+
+;;-----------------------------------------------------------------------------
+;; Spell-check Install Dialog
+;;-----------------------------------------------------------------------------
+[spell-check]
+Caption=Maxthon
+Title=Spell Check language installation
+Install=Install
+Exit=Exit
+Update=Update
+InstallResult=Spell Check has been successfully installed. Please enter Maxthon Options to choose your default spell check language.
+UpdatePrompt1=You have already installed this language.
+UpdatePrompt2=Please choose update or cancel. 
+UpdateResult=Spell Check has been successfully updated. Please enter Maxthon Options to choose your default spell check language.
+UnknownPrompt=Sorry, the language can not be recognized.
+
+;;=============================================================================
+;; Add/Edit Favorites Folder Dialog
+;;=============================================================================
+[edit-fav-folder]
+NewFavFolder=New Favorites folder
+EditFavFolder=Edit Favorites folder
+
+FolderName=Folder name
+ParentFolder=Inside
+
+;;=============================================================================
+;; Add/Edit Favorites Dialog
+;;=============================================================================
+[edit-fav-item]
+AddToFav=Add To Favorites
+EditFavItem=Edit Favorites item
+
+Title=Title
+URL=URL
+Folder=Folder
+
+NewFolder=New folder
+
+;;=============================================================================
+;; Add all tabs to favorites
+;;=============================================================================
+[add-all-to-fav]
+AddToFav=Add all pages to Favorites
+
+Folder=Folder
+QuickGroups=Quick Group
+FolderName=Title
+GroupName=Title
+ParentFolder=Folder
+IntoFolder=Folder
+AddInto1=Add
+AddInto2=Pages into
+
+NewFolder=New folder
+
+;;=============================================================================
+;; Fav Icon Update Dialog
+;;=============================================================================
+[fav-icon-update]
+Title=Site icon update
+FavTitle=Title
+FavUrl=URL
+IconResult=Status
+ProgressText=Progress
+Progress=%Current% / %Total%
+Start=Start
+Pause=Pause
+
+;;-----------------------------------------------------------------------------
+;; speech-bubble
+;;-----------------------------------------------------------------------------
+[speech-bubble]
+DiscernError=Sorry, the speech can not be recognized.<br/>
+MicSetting=Microphone Settings
+Again=Retry
+Cancel=Cancel
+WarmUp=Speech recognition initializing...
+Recording=Speak now...
+Recognizing=Recognizing...
+
+;;=============================================================================
+;;
+;;=============================================================================
+[set-fav-root]
+SetFavRootFolder=Set Favorites bar display folder
+
+;;=============================================================================
+;; lock browser
+;;=============================================================================
+[lock-browser]
+UnlockBrowser=Unlock Maxthon
+EnterPasswordToUnlockBrowser=Please enter your Maxthon Passport password
+InputPassword=Password
+Unlock=Unlock
+PasswordError=Incorrect password
+OpenedForMaxthonPassport=You must be logged in your Passport account to lock Maxthon. Do you want to login now?
+
+;;=============================================================================
+;; message popup
+;;=============================================================================
+[msg-popup]
+More=More news
+DoNotShowAgain=Don't show again
+
+
+;;=============================================================================
+;; Clear History Dialog
+;;=============================================================================
+[clear-history]
+ClearHistory=Clear browsing data
+
+ClearBrowserHistory=Clear browsing history
+ClearDownloadHistory=Clear download history
+DeleteCacheFiles=Delete cache files
+DeleteCookies=Delete cookies (NOT RECOMMENDED)
+DeleteWebsiteData=Delete other site data
+ClearAddressBoxHistory=Clear address bar history
+ClearLastSessionRecords=Clear last session
+
+AutoClearOnExit=Auto clear on exit
+ClearNow=Clear now
+
+ClearDone=Records cleared.
+ClearInProgress=Clearing...
+HistoryClearedMessage=Your browsing records are cleared.
+
+
+
+;;=============================================================================
+;; Clear User Data
+;;=============================================================================
+[clear-user-data]
+UserDataCleared=Clear user data
+UserDataClearedPrompt=The user data of following account has been deleted:
+
+;;=============================================================================
+;; Edit Filter Rules Dialog
+;;=============================================================================
+[edit-filter-rules]
+EditBlockingRules=Edit blocking rules
+EditRulesTip=You can add new blocking rules by clicking on page elements.
+
+DomainList=Site list
+
+RulesForDomain=Rules for this site
+
+LocateCurrent=Edit rules for this site
+LocateCurrentTip=Edit rules for this site
+Import=Import
+Export=Export
+
+SyntaxReference=Syntax reference
+DiscussionForum=Discussion Forum
+
+ViewLog=View log
+OriginalPage=Original page
+
+OpenWebsite=Open website
+ShareRules=Share
+ShareSelected=Share selected rules
+DOMAIN_NOT_FOUND=No matching site
+DOMAIN_NOT_SAVED=Rules for "$1" not saved. Do you want to save them now?
+
+SubscribeDataGlobal=Global rules
+SubscribedRules=Subscribed rules
+UserRules=My rules
+
+;;=============================================================================
+;; AdHunter Log Dialog
+;;=============================================================================
+[filter-log]
+AdHunterLog=AdBlock log
+
+Domain=Domain
+BlockedItem=Blocked item
+Rule=Rule
+
+BlockedItemCount=Blocked item count
+ClearLog=Clear log
+
+CopyUrl=Copy URL
+CopyRule=Copy rule
+
+[instal-filter-rules]
+ImportAdHunterRules=Install AdBlock rules
+ImportMessage=These are Maxthon AdBlock rules. Confirm to install.
+TargetSite=Website
+Author=Author
+LastModified=Date update
+ImportRulesFromSafeSources=Warning: AdBlock rules may cause website display incorrectly.
+OpenWebsiteAfterImport=Open it after installation
+Install=Install
+OK=OK
+Cancel=Cancel
+ShareRules=Share rules
+SelectedRulesHasBeenCopied=The selected rules have been copied to the Clipboard, you can share them with friends.
+SharedMessage=You can paste the rules in a text file or an email.
+OverwriteRules=Overwrite AdBlock rules
+ImportThisRuleSetWillOverwriteExstingRulesForFollowingSite=The new rules will overwrite the current rules for this site, overwrite it?
+Overwrite=Overwrite
+ClipboardTitle=Browse the Web with Maxthon AdBlock without annoying ads! www.maxthon.com
+
+;;=============================================================================
+;; Manual Filter
+;;=============================================================================
+[manual-filter]
+ClickToBlock=Click to block
+BlockSucceed=Ad blocked!
+CancelBlock=Undo block
+
+;;=============================================================================
+;; User Profile Panel
+;;=============================================================================
+[user-panel]
+IDS_PASSPORT_SETAVATAR=Set avatar
+IDS_PASSPORT_EDITPROFILE=Edit profile
+IDS_PASSPORT_LOGOFF=Log out
+IDS_PASSPORT_EMAILACCOUNT=Account
+IDS_PASSPORT_PASSWORD=Password
+IDS_PASSPORT_REMPWD=Remember password
+IDS_PASSPORT_AUTOLOGIN=Auto login
+IDS_PASSPORT_SIGNIN=Log in
+IDS_PASSPORT_SIGNINGIN=Logging in...
+IDS_PASSPORT_CANCEL=Cancel
+IDS_PASSPORT_CREATENEW=Create an account...
+IDS_PASSPORT_RECOVERPWD=Recover password
+IDS_PASSPORT_FORGETPWD=Password recovery
+IDS_PASSPORT_BACK=Go back
+IDS_PASSPORT_TRYAGAIN=Retry
+IDS_PASSPORT_CONNECT=Connect
+IDS_PASSPORT_OFFLINEMODE_ERRORTEXT=Cannot connect to the server. Please check your internet connection and try again.
+IDS_PASSPORT_OFFLINEMODE_ERRORTITLE=Offline Mode
+IDS_PASSPORT_OFFLINEMODE_PWDERR_TEXT=If you have modified your password recently, please logout and login again. Online services will not be available in this mode.
+IDS_PASSPORT_OFFLINEMODE_PWDERR_TITLE=Authentication failed
+IDS_PASSPORT_PASSWORD_ERRORTEXT=Wrong account or password. Please check and try again.
+IDS_PASSPORT_PASSWORD_ERRORTITLE=Log in failed.
+IDS_PASSPORT_CONNECTION_ERRORTEXT=Cannot connect to the server. Please check your internet connection and try again.
+IDS_PASSPORT_CONNECTION_ERRORTITLE=Connection failed
+IDS_PASSPORT_ACCOUNTEMPTY=Please enter your email.
+IDS_PASSPORT_PWDEMPTY=Please enter your password.
+IDS_PASSPORT_ACCOUNTLIST_EMPTY=Empty
+IDS_PASSPORT_REFRESH=Update profile
+IDS_PASSPORT_CMTXT_LOGOFF=Are you sure you want to logout and use a shared account?
+IDS_PASSPORT_CMTITLE_LOGOFF=Logout
+IDS_PASSPORT_CMTXT_DELETE=Are you sure you want to delete the account data on this computer?
+IDS_PASSPORT_CMTITLE_DELETE=Delete account data
+IDS_PASSPORT_GOBACKTO_SIGNINFORM=Login
+IDS_PASSPORT_FAVONLINE=Online Favorites
+IDS_PASSPORT_FAV_LAST_UPLOAD=Last upload:
+IDS_PASSPORT_FAVOL_NULL=Online Favorites is empty. No data uploaded.
+IDS_PASSPORT_FAVOL_GETVERSION_FAILED=Failed to query version.
+IDS_PASSPORT_FAVOL_WAITINGFOR_REMOTEVERSION=Querying version...
+IDS_SYNCFAVOL_FAV_SYNCING=Synchronizing...
+IDS_SYNCFAVOL_FAV_ITEMS=Item Count:
+IDS_SYNCFAVOL_FAV_SYNCING_FAILED=Synchronization failed.
+
+IDS_SYNCFAVOL_TITLE=Sync Favorites
+IDS_SYNCFAVOL_UPLOAD=Upload Favorites
+IDS_SYNCFAVOL_LOCALFAVINFO=Local Data
+IDS_SYNCFAVOL_UPLOAD_TIPS=Your Favorites will be encrypted and stored on the server.
+IDS_SYNCFAVOL_DOWNLOAD=Download Favorites
+IDS_SYNCFAVOL_ONLINEFAVINFO=Online data
+IDS_SYNCFAVOL_DOWNLOAD_TIPS=Download Favorites data from the server. Local copy will be overwritten.
+IDS_SYNCFAVOL_UPLOADING=Uploading...
+IDS_SYNCFAVOL_DOWNLOADING=Downloading...
+IDS_SYNCFAVOL_MERGING=Merging data...
+IDS_SYNCFAVOL_UPLOAD_SUCCEED=Upload completed
+IDS_SYNCFAVOL_DOWNLOAD_SUCCEED=Download completed
+IDS_SYNCFAVOL_UPLOAD_FAILED=Upload failed
+IDS_SYNCFAVOL_DOWNLOAD_FAILED=Download failed
+IDS_SYNCFAVOL_UPLOAD_FAILED_REASON=Upload failed. Please check your connection and try again.
+IDS_SYNCFAVOL_UPLOAD_FAILED_TOOBIG=Cannot upload Favorites data that exceeds 500KB.
+IDS_SYNCFAVOL_DOWNLOAD_FAILED_REASON=Download failed. Please check your connection and try again.
+IDS_SYNCFAVOL_SERVICE_REQUIRED_LOGIN_TITLE=Please login first.
+IDS_SYNCFAVOL_SERVICE_REQUIRED_LOGIN_TEXT=You must login to use online services. Login now?
+IDS_SYNCFAVOL_OFFLINE=Login to use online services
+IDS_SYNCFAVOL_FAV_FILE_SIZE=File Size:
+
+;;=============================================================================
+;; User notify box
+;;=============================================================================
+[user-notify-box]
+LoginSucceed=Login successful
+LoginFailed=Login failed
+ImportSucceed=Import successful
+ImportFailed=Import failed
+SyncSucceed=Successfully synchronized 
+SyncFailed=Synchronization failed
+LoginSucceedText1=Importing local Favorites and Browser Settings
+LoginSucceedText2=Synchronizing Online Collection and Browser Settings
+LoginFailedText=Unknown error
+LoginFailedText1=Internal error
+LoginFailedText2=Decryption error, Json decoding error, or Protocol error
+LoginFailedText3=Password incorrect
+LoginFailedText4=Account does not exist
+LoginFailedText5=The client version is outdated.
+LoginFailedText6=Other domain account
+LoginFailedText7=Forgot your password?
+LoginFailedText8=Network error
+ImportSucceedText=Set your avatar
+ImportFailedText=Import next login
+SyncSucceedText=Maxthon will automatically synchronize your data.
+SyncFailedText=Unable to access the account, local data will be used instead.
+
+
+;;=============================================================================
+;; Find in Page
+;;=============================================================================
+[find]
+Next=Next
+Previous=Previous
+Close=Close
+NOT_FOUND=Not found
+OPTIONS=Options
+HIGHLIGHT_ALL_KEYWORDS=Highlight keywords
+MATCH_CASE=Match case
+MATCH_WHOLE_WORD=Match whole word
+Find=Find
+
+;;=============================================================================
+;; Information Bar
+;;-----------------------------------------------------------------------------
+;; This bar is used to display variable messages on the top of the page.
+;;=============================================================================
+[info-bar]
+;;----------------------Magic Fill-------------------------------
+Ifb_Save=Save
+Ifb_Update=Update
+Ifb_magic_fill_cancel=Never for this site
+Ifb_magic_fill_save_tip=Do you want to save the password?
+Ifb_magic_fill_update_tip=Do you want to update saved password?
+Ifb_Notsave=Not now
+Ifb_Noteupdate=Not now
+
+;;----------------------Set Default Browser-------------------------------
+Ifb_QueryDefBrowser=Set Maxthon as your default browser?
+Ifb_SetDefBrowser=Set as default browser
+Ifb_NotSetDefBrowser=Don't ask again
+
+;;----------------------Block Ad by Click-------------------------------
+BlockAdMsg=Click the content you want to block. Click "Finish" to save changes.
+BlockingLog=AdBlock log
+BlockAdSwitchMode=Edit blocking rules
+
+
+;;=============================================================================
+;; Multi-Search
+;;=============================================================================
+[multi-search]
+MultiSearch=Multi-Search
+Settings=Settings
+Preferred=Preferred
+Feedback=Feedback
+More=More
+SwitchLayout=Switch layout
+Hide=Hide
+
+
+;;=============================================================================
+;; Website Safety Check
+;;=============================================================================
+[site-safety]
+authorg_mx=Maxthon
+
+KnowMore=Learn more...
+Appeal=Appeal
+ViewCert=View Certificate
+ApplyAuth=Request validation
+
+SiteValidated=Validated website
+SiteValidatedMessage=This website is validated by %authorg%.
+
+SiteDanger=Malicious website
+SiteDangerMessage=This website is marked as malicious by %authorg%.
+
+SiteCert=This website has a Certificate
+SiteCertMessage=The data transfer between you and the website will be encrypted.
+SiteCertificatedAs=This website is certified as
+
+InvalidCert=Invalid Certificate
+InvalidCertMessage=This site's Certificate has expired or is issued by an unknown organization.<br/>We recommend you DO NOT visit it.
+
+Safe=Safe
+Danger=Danger
+
+SITENAME=%webName%
+SiteOwner=Owner:
+ORGANIZATION=Validated %orgType% website
+
+;;=============================================================================
+;; Multi-Search Setup Page
+;;=============================================================================
+[multi-search-setup]
+Title=Multi-Search Settings
+
+AddCategoryTip=New category
+AddEngineTip=Add search engine...
+
+CategoryListTitle=Categories
+EnginesListTitle=Search engine list
+AddToEngineListTitle=Click to add
+
+RestroeAllTip=Reset to default
+SearchKey=Type a keyword...
+FeedBack=Feedback
+
+Edit=Edit
+Delete=Delete
+Add=Add
+Change=Modify
+Save=Save
+Cancel=Cancel
+
+EditEngineTip=Edit search engine
+EngineName=Name
+EngineCat=Category
+EngineURL=Home URL
+EngineSURL=Search URL
+
+CatName=Name
+AddCatName=Add category
+ChangeCatName=Edit category
+
+LastOneDeleteTip=You cannot delete the last item of the preferred category.
+ConfirmEngineDeleteTip=Do you want to delete this search engine?
+ConfirmCategoryDeleteTip=Do you want to delete this category? (All items in this category will also be deleted)
+PreferCatrogyTip=Preferred
+ShowCatrogyTip=Show this category
+HideCatrogyTip=Hide this category
+ConfirmSaveTip=Your changes haven't been saved. Save now?
+ConfirmRestoreTip=Are you sure you want to reset all data? (All custom categories and search engines will be deleted)
+TitleLengthTip=Title must be less than 15 characters.
+RequiredTip=Required
+ConfirmCancelTip=Are you sure you want to cancel all of your changes?
+URLTip=Enter the URL you want to open when there are no search keywords. e.g. Google's URL is http://www.google.com
+SearchTip=Use "%s", "%us" or "%rs" in the URL to add 'wildcards' to your search.
+GetDomainTip=Click to acquire domain automatically
+Draggable=Drag and drop to sort the items
+SavedTip=Settings saved
+
+;;=============================================================================
+;; Webkit UI Strings
+;;=============================================================================
+[webkit-ui]
+IDS_SEARCHABLE_INDEX_INTRO=This is a searchable index. Enter search keywords:
+IDS_FORM_SUBMIT_LABEL=Submit
+IDS_FORM_INPUT_ALT=Submit
+IDS_FORM_RESET_LABEL=Reset
+IDS_FORM_FILE_BUTTON_LABEL=Choose File
+IDS_FORM_MULTIPLE_FILES_BUTTON_LABEL=Choose files
+IDS_DETAILS_WITHOUT_SUMMARY_LABEL=Details
+IDS_FORM_FILE_NO_FILE_LABEL=No file chosen
+IDS_FORM_FILE_MULTIPLE_UPLOAD=$1 files
+IDS_FORM_FILE_NO_FILE_DRAG_LABEL=Drag file here
+IDS_RECENT_SEARCHES_NONE=No recent searches
+IDS_RECENT_SEARCHES=Recent searches
+IDS_RECENT_SEARCHES_CLEAR=Clear recent searches
+IDS_AX_ROLE_WEB_AREA=Web area
+IDS_AX_ROLE_LINK=Link
+IDS_AX_ROLE_LIST_MARKER=List marker
+IDS_AX_ROLE_IMAGE_MAP=Image map
+IDS_AX_ROLE_HEADING=Heading
+IDS_AX_BUTTON_ACTION_VERB=Press
+IDS_AX_RADIO_BUTTON_ACTION_VERB=Select
+IDS_AX_TEXT_FIELD_ACTION_VERB=Activate
+IDS_AX_CHECKED_CHECK_BOX_ACTION_VERB=Uncheck
+IDS_AX_UNCHECKED_CHECK_BOX_ACTION_VERB=Check
+IDS_AX_LINK_ACTION_VERB=Jump
+IDS_KEYGEN_HIGH_GRADE_KEY=2048 (High Grade)
+IDS_KEYGEN_MED_GRADE_KEY=1024 (Medium Grade)
+IDS_DEFAULT_PLUGIN_GET_PLUGIN_MSG=$1 plug-in is not installed.
+IDS_DEFAULT_PLUGIN_GET_PLUGIN_MSG_NO_PLUGIN_NAME=The required plug-in is not installed.
+IDS_DEFAULT_PLUGIN_GET_PLUGIN_MSG_2=Click here to download the plug-in.
+IDS_DEFAULT_PLUGIN_REFRESH_PLUGIN_MSG=After installing the plug-in, click here to refresh.
+IDS_DEFAULT_PLUGIN_NO_PLUGIN_AVAILABLE_MSG=No plug-in is available to display this content.
+IDS_DEFAULT_PLUGIN_DOWNLOADING_PLUGIN_MSG=Downloading plug-in...
+IDS_DEFAULT_PLUGIN_GET_THE_PLUGIN_BTN_MSG=Get plug-in
+IDS_DEFAULT_PLUGIN_CANCEL_PLUGIN_DOWNLOAD_MSG=Cancel
+IDS_DEFAULT_PLUGIN_CONFIRMATION_DIALOG_TITLE=This needs $1 plug-in.
+IDS_DEFAULT_PLUGIN_CONFIRMATION_DIALOG_TITLE_NO_PLUGIN_NAME=This requires an additional plug-in.
+IDS_DEFAULT_PLUGIN_USER_OPTION_MSG=Please confirm to install the $1 plug in. You should only install plug-ins from trusted sources.
+IDS_DEFAULT_PLUGIN_USER_OPTION_MSG_NO_PLUGIN_NAME=Please confirm to install this plug-in. You should only install plug-ins from trusted sources.
+IDS_DEFAULT_PLUGIN_USE_OPTION_CONFIRM=Install
+IDS_DEFAULT_PLUGIN_USE_OPTION_CANCEL=Cancel
+IDS_DEFAULT_PLUGIN_DOWNLOAD_FAILED_MSG=The $1 plug-in installation failed.
+IDS_DEFAULT_PLUGIN_INSTALLATION_FAILED_MSG=The plug-in installation failed
+IDS_MXCORE_STATUS_LOADING=Loading
+IDS_MXCORE_STATUS_WAITING=Waiting
+IDS_MXCORE_STATUS_COMPLETE=Done
+IDS_MXVIEW_BLANK_PAGE_TITLE=New tab
+IDS_MXVIEW_PAGE_SAVEAS_ALL=Web page - Complete
+IDS_MXVIEW_PAGE_SAVEAS_HTML_ONLY=Web page - HTML only
+IDS_MXVIEW_PAGE_SAVEAS_MHTML=Web archive, single file
+IDS_MXVIEW_IMAGE_SAVEAS_ALL=All files
+IDS_MXVIEW_IMAGE_SAVEAS_FILES=Files
+IDS_MXVIEW_IMAGE_SAVEAS_TITLE=Save image
+DEVTOOLS_TITLE=Developer Tools - %1
+IDS_ADFILTER_BLOCKED=Blocked content
+IDS_ADFILTER_CLICK_BLOCK_AD=Click to block
+IDS_ADFILTER_CLICK_UNBLOCK_AD=Click to unblock
+IDS_MXVIEW_UPLOAD_FILECHOOSER_ALL=All files
+IDS_MXVIEW_UPLOAD_FILECHOOSER_IMAGE=Image
+IDS_MXVIEW_UPLOAD_FILECHOOSER_HTML=HTML
+IDS_MXVIEW_UPLOAD_FILECHOOSER_CUSTOM=Custom
+IDS_USER_IDENTITY=--Identities--
+IDS_CAPTUREKEY_DIALOG_TITLE=Press the keys you want to use...
+IDS_CAPTUREKEY_DIALOG_LABEL=Current command
+IDS_BEFORE_UNLOAD_TITLE=Confirm from web page
+IDS_BEFORE_UNLOAD_MESSAGE=Leave this page?
+IDS_CUSTOM_HANDLERS_TITLE=Custom program
+IDS_CUSTOM_HANDLERS_MESSAGE=Allow to use custom program (protocol: $1 title: $2)?
+ViewSource=View Source
+IDS_CERT_ERROR_UNABLE_TO_CHECK_REVOCATION=Can not verify certificate 
+IDS_SPEECH_INPUT_BUBBLE_HEADING=Speak now
+IDS_SPEECH_INPUT_ABORTED=Speech recognition has been interrupted.
+IDS_SPEECH_INPUT_MIC_ERROR=There was a problem with your microphone.
+IDS_SPEECH_INPUT_NO_MIC=No microphone found.
+IDS_SPEECH_INPUT_MIC_IN_USE=Microphone already in use.
+IDS_SPEECH_INPUT_NO_SPEECH=No speech heard.
+IDS_SPEECH_INPUT_NO_RESULTS=Speech not recognized.
+IDS_SPEECH_INPUT_TRY_AGAIN=Try again
+IDS_SPEECH_INPUT_NET_ERROR=Connection to speech servers failed.
+IDS_SPEECH_INPUT_MIC_SETTINGS=Microphone Settings
+IDS_DATE_INPUT_CALENDAR_CLEAR=Clear
+IDS_DATE_INPUT_CALENDAR_TODAY=Now
+IDS_DATE_INPUT_CALENDAR_DONE=Done
+IDS_FORM_VALIDATION_TYPE_MISMATCH_EMAIL=Please enter an email address.
+IDS_FORM_VALIDATION_TYPE_MISMATCH_URL=Please enter an URL.
+IDS_PDF_NEED_PASSWORD=This document is password protected.  Please enter a password.
+IDS_PDF_PAGE_LOADING=Loading...
+IDS_PDF_PAGE_LOAD_FAILED=Failed to load PDF document
+IDS_PDF_PROGRESS_LOADING=Loading
+
+;;=============================================================================
+;; Webkit Messages
+;;=============================================================================
+[webkit-messages]
+UNHANDLED_PROTOCOL=Cannot open this URL. Protocol %1 is not associated with any program.
+
+
+;;=============================================================================
+;; Webkit Context Menu
+;;=============================================================================
+[webkit-context-menu]
+IDS_ENCODING_MENU=&Encoding
+IDS_ENCODING_COMPLETELIST=More
+IDS_ENCODING_AUTO_DETECT=Auto detect
+IDS_ENCODING_UNICODE=Unicode
+IDS_ENCODING_WESTERN=Western
+IDS_ENCODING_SIMP_CHINESE=Chinese Simplified
+IDS_ENCODING_TRAD_CHINESE=Chinese Traditional
+IDS_ENCODING_KOREAN=Korean
+IDS_ENCODING_JAPANESE=Japanese
+IDS_ENCODING_THAI=Thai
+IDS_ENCODING_CENTRAL_EUROPEAN=Central European
+IDS_ENCODING_CYRILLIC=Cyrillic
+IDS_ENCODING_GREEK=Greek
+IDS_ENCODING_BALTIC=Baltic
+IDS_ENCODING_SOUTH_EUROPEAN=South European
+IDS_ENCODING_NORDIC=Nordic
+IDS_ENCODING_CELTIC=Celtic
+IDS_ENCODING_ROMANIAN=Romanian
+IDS_ENCODING_TURKISH=Turkish
+IDS_ENCODING_ARABIC=Arabic
+IDS_ENCODING_HEBREW=Hebrew
+IDS_ENCODING_VIETNAMESE=Vietnamese
+IDC_NAV_BACK=&Back
+IDC_NAV_FORWARD=F&orward
+IDC_NAV_RELOAD=&Refresh
+IDC_PAGE_ADDFAV=Add to &Favorites
+IDC_PAGE_SAVEAS=&Save as...
+IDC_PAGE_SAVEAS_IMAGE=Save as image
+IDC_PAGE_PRINT=Pr&int...
+IDC_FINDINPAGE=Find in page
+IDC_PAGE_VIEWSOURCE=&View source
+IDC_OPENURL_ONCURRENTWINDOW=&Open
+IDC_OPENURL_ONNEWWINDOW=Open in &new tab
+IDC_LINK_SAVEAS=S&ave target as...
+IDC_LINK_COPY=Copy shortcut
+IDC_LINK_COPYTEXT=Copy link text
+IDC_IMAGE_VIEWINNEWWINDOW=View image in new tab
+IDC_IMAGE_RELOAD=S&how image
+IDC_IMAGE_SAVEAS=&Save image as...
+IDC_IMAGE_COPYLINK=Copy image URL
+IDC_IMAGE_COPY=&Copy image
+IDC_IMAGE_SETASDESKTOP=Set as background
+IDC_SAVE_ALL_LINKS=Save all links
+IDC_EDITABLE_UNDO=&Undo
+IDC_EDITABLE_CUT=Cu&t
+IDC_EDITABLE_COPY=&Copy
+IDC_EDITABLE_PASTE=&Paste
+IDC_EDITABLE_DELETE=&Delete
+IDC_EDITABLE_SELECTALL=Select &all
+IDC_SELECTION_UNDO=&Undo
+IDC_SELECTION_CUT=Cu&t
+IDC_SELECTION_COPY=&Copy
+IDC_SELECTION_PASTE=&Paste
+IDC_SELECTION_DELETE=&Delete
+IDC_SELECTION_SEARCH=&Search
+IDC_SELECTION_GOTOURL=Open selected link
+IDC_SELECTION_SELECTALL=Select &all
+IDC_SELECTION_VIEWSOURCE=Vie&w selection source
+IDC_FRAME_MENU=This frame
+IDC_FRAME_RELOAD=Reload frame
+IDC_FRAME_SAVEAS=Save frame as...
+IDC_FRAME_FILTER=Block this frame
+IDC_FRAME_VIEWSOURCE=&View frame source
+IDC_SELECTION_SENDTO_NOTE=Send to SkyNote
+IDC_ALL_PROPERTY=&Properties
+IDS_FILL_FORM=Fill form
+IDS_SAVE_FORM=Save form
+IDC_INSPECT_ELEMENT=Inspect element
+IDC_ADFILTER_ADD_RULE=Block
+IDC_ADFILTER_ADD_WHITE_RULE=Add to White list
+IDC_ADFILTER_COPY_URL=&Copy URL
+IDS_SPELLCHECK_ADD_TO_DICTIONARY=Add to Dictionary
+IDC_MEDIAPLAYER_PLAY=Play
+IDS_MEDIAPLAYER_PAUSE=Pause
+IDC_MEDIAPLAYER_MUTE=Mute
+IDS_MEDIAPLAYER_UNMUTE=Unmute
+IDC_MEDIAPLAYER_LOOP=Loop
+IDC_MEDIAPLAYER_CONTROLS=Display controls
+IDC_VIDEO_LINK_SAVEAS=Save video as...
+IDC_VIDEO_LINK_COPY=Copy video link
+IDC_VIDEO_OPENURL_ONNEWWINDOW=Open video in new tab
+IDC_AUDIO_LINK_SAVEAS=Save audio as...
+IDC_AUDIO_LINK_COPY=Copy audio link
+IDC_AUDIO_OPENURL_ONNEWWINDOW=Open audio in new tab
+
+
+;;=============================================================================
+;; IE Context Menu
+;;-----------------------------------------------------------------------------
+;; Used in Compatible Mode
+;;=============================================================================
+[ie-context-menu]
+2282=&Back
+2283=F&orward
+6042=&Refresh
+31=Select &all
+26=&Paste
+2266=Crea&te shortcut
+2261=Add to &Favorites...
+2139=&View source
+2292=&Encoding
+27=Pr&int
+28=&Properties
+2263=&Save background image as...
+2267=Set as back&ground
+2277=Set as back&ground
+2265=&Copy background image
+2279=Set as &desktop item...
+2280=Set as &desktop item...
+2136=&Open
+2137=Open in &new tab
+2268=S&ave as...
+2273=&Print
+2269=S&how image
+2270=&Save image as...
+2288=&Email image...
+2289=Pr&int image...
+2287=&Go to My Pictures
+2264=Set as back&ground
+2278=Set as &desktop item...
+16=Cu&t
+15=&Copy
+2262=Copy shor&tcut
+43=&Undo
+17=&Delete
+33264=Copy &image URL
+2271=Play
+2272=Stop
+2276=Restart
+2380=Scroll to here
+2381=Top
+2382=Bottom
+2383=Page Up
+2384=Page Down
+2385=Scroll Up
+2386=Scroll Down
+2387=Left edge
+2388=Right edge
+2389=Page Left
+2390=Page Right
+2391=Scroll Left
+2392=Scroll Right
+More=More
+40001=&Save as...
+40002=&Search
+40003=Vie&w selection source
+40004=Copy link text
+40005=Copy image URL
+40006=View in new tab
+40007=Save as image
+40008=Send to SkyNote
+40009=Fill form
+40010=Save form
+40011=Inspect element
+2441=Play
+Pause=Pause
+2442=Mute
+Unmute=Unmute
+40013=Loop
+40014=Display controls
+SaveVideoAs=Save video as...
+CopyVideoUrl=Copy video link
+SaveAudioAs=Save audio as...
+CopyAudioUrl=Copy audio link
+40015=Open in new tab
+OpenVideoInNewTab=Open video in new tab
+OpenAudioInNewTab=Open audio in new tab
+
+;;=============================================================================
+;; Crashed Page
+;;=============================================================================
+[core-crash]
+PageCrashed=Page crashed
+PageCrashMessage=The page you were visiting has crashed. Please reload the page to try again.
+
+Title=Title
+URL=URL
+
+ReloadPage=Reload this page
+SwitchEngine=Switch engine
+
+;;=============================================================================
+;; HTTP Authentication Dialog
+;;=============================================================================
+[http-auth]
+AuthRequired=Authentication required
+LoginTo=Login to
+Username=Username
+Password=Password
+SavePassword=Save password
+Login=Login
+Cancel=Cancel
+
+
+;;=============================================================================
+;; Invalid Certificate Dialog
+;;=============================================================================
+[invalid-cert]
+InvalidCert=Invalid certificate
+Explanation=This site's certificate has expired or has been issued for a different website's address.<br>This problem may indicate an attempt to intercept the data between you and a remote server. <br/>Please check whether the URL in the address bar is correct.
+CloseThisPage=Do not visit (RECOMMENDED)
+ContinueAtRisk=Continue at Your Own Risk
+
+
+;;=============================================================================
+;; Page Element Properties Dialog
+;;=============================================================================
+[element-properties]
+Properties=Properties
+Image=Image
+Link=Link
+Page=Page
+
+URL=URL
+CopyURL=Copy URL
+Format=Type
+Size=Size
+Bytes=Bytes
+Pixels=Pixels
+LastModified=Last modified
+
+
+;;=============================================================================
+;; Webkit JS Dialogs
+;;=============================================================================
+[webkit-js-dialog]
+AlertTitle=Alert from page $1
+ConfirmTitle=Confirm from page $1
+PromptTitle=Prompt from page $1
+OK=OK
+CANCEL=Cancel
+RememberChoice=Block this dialog.
+
+;;=============================================================================
+;; Webkit Error Pages
+;;=============================================================================
+[error-pages]
+ReloadPage=Reload this page
+ErrorCode=Error code
+
+403.Title=Access denied
+403.Code=HTTP Error 403
+403.Message=The server has denied your browsing request. <br/><br/>Please make sure you have the permission to access this page.
+
+404.Title=Page Not Found
+404.Code=HTTP Error 404
+404.Message=The server cannot find the page you requested.<br/><br/> Please make sure: <br/>- You have entered the correct URL. <br/>- You have the permission to access this page.
+
+500.Title=Internal server error
+500.Code=HTTP Error 500
+500.Message=This website might have encountered a technical problem and cannot fullfill your request.<br/> Please try again later.
+
+AuthFail.Title=Authentication required
+AuthFail.Message=This page requires authentication before allowing you to visit. <br/><br/>Please make sure: <br/>- You have entered the correct username and password. <br/>- You have the permission to access this page.
+
+ConnFail.Title=Cannot connect to the website
+ConnFail.Message=Please make sure: <br/><br/>- You have entered the correct URL. <br/>- You are connected to the Internet.<br/>- Your firewall is properly configured.<br/>- The website is not encountering any technical problem at the moment.
+
+
+Danger.Caption1=Phishing website
+Danger.Title1=Phishing website detected
+Danger.Message1=The following website is reported as a phishing site, containing potential threats that may harm your computer.
+Danger.Caption2=Malicious website
+Danger.Title2=Malicious website detected
+Danger.Message2=This website has been reported as malicious, containing potential threats that may harm your computer.
+Danger.RealSite=We suggest you visit the real website below:
+Danger.OpenRealSite=Open real website
+Danger.Leave=Close this page
+Danger.Continue=Continue at your own risk
+Danger.Appeal=Report an error
+Danger.BlockCount=Maxthon Security Center has blocked attacks for all users in total of:
+Danger.Partner=Malicious website has been reported by the following organization.
+Danger.ModifyConfig=Edit Safety Settings
+Danger.PartnerSymantec=Huawei-Symantec
+Danger.PartnerApac=Anti-Phishing Alliance of China
+Danger.PartnerAlipay=Alipay
+Danger.PartnerTaobao=Taobao
+Danger.PartnerUnionpay=UnionPay
+Danger.PartnerYandex=Yandex
+Danger.PartnerPingan=Ping'an Technology
+Danger.PartnerSelf=Maxthon
+
+DNS.Title=Unable to resolve domain name
+DNS.Message=Please make sure: <br/>- You are connected to the Internet. <br/>- Your DNS server settings are correct.
+
+InvalidCert.Title=Invalid certificate
+InvalidCert.Message=This site's certificate has expired or has been issued for a different website's address.<br>This problem may indicate an attempt to intercept the data between you and remote server. <br/>Please check whether the URL in the address bar is correct.
+InvalidCert.Leave=Close this page (RECOMMENDED)
+InvalidCert.Continue=Continue at your own risk
+
+Repost.Title=Cannot connect to website
+Repost.Message=This webpage requires data that you entered earlier in order to be properly displayed. <br/>You can send this data again, but by doing so you will repeat any action this page previously performed.
+
+;;=============================================================================
+;; Download Manager
+;;=============================================================================
+[download]
+;;-------------------Download Prompt Dialog-----------------------------
+DownloadTitle=Download file
+
+Connecting=Getting file information...
+
+TargetUrl=Target URL
+SaveTo=Save to
+Filename=Filename
+ChooseFolder=Please choose a folder:
+UploadToCloud=Upload to my Cloud
+
+RestartTask=Download again
+RestartTaskMessage=Download this file again will overwrite existing file. Do you want to continue?
+
+DeleteTask=Delete tasks
+DeleteTaskMessage=Do you want to delete this task?
+DeleteFileAsWell=Delete downloaded file as well
+
+DeleteCloudTask=Delete files
+DeleteCloudTaskMessage=Do you want to delete this file?
+
+DeleteFailTitle=Deleting file failed.
+DeleteFailMessage=Failed to delete existing file.
+
+FileSizeInfo=File Size: %size%, free space on drive %drive%: %free%
+FileDiskInfo=Free space on drive %drive%: %free%
+UnkownSize=Unknown size
+FileTypeInfo=File type: %type%
+
+DiskFreeSpaceNotEnough=Not enough free disk space.
+NotNTFS=Files larger than 4GB cannot be saved to non-NTFS file systems.
+
+;;-------------------Download Manager-----------------------------
+DownloadCaption=Maxthon Download Manager
+AddTask=Add task
+DownloadTabLocal=Local
+DownloadTabCloud=My Cloud
+
+Folder=Folder
+
+OpenFolder=Open folder
+CopyUrl=Copy URL
+CopyFilePath=Copy file path
+OpenSourcePage=Open source page
+Restart=Restart
+
+ClearCompleted=Clear completed
+ClearFailed=Clear failed
+
+TaskCount=%d file(s) in total
+OverallSpeed=Speed: %s
+
+SelectAll=Select all
+Start=Start
+Pause=Pause
+Delete=Delete
+Push=Cloud Push
+OpenFile=Open file
+OpenFileFolder=Open folder
+ResumeDownload=Resume
+DownloadTasks=Download tasks
+SearchFile=Search file
+
+FormatError=Invalid file name
+
+Download=Download
+Upload=Upload
+Uploadtip=Upload to my Cloud
+
+FileNotExist=File not found.
+LocalFileNotExist=Not Found
+ALLTasks=Show all tasks
+DoneTasks=Show done tasks
+FailTasks=Show failed tasks
+
+
+;;------------------- Batch Download -----------------------------
+DownloadAll=Maxthon Downloader
+FileName=Name
+Type=Type
+URL=URL
+Size=Size
+AdditionalInformation=Selected: %FileCount%, total size: %EstimateSize% (Local Disk %Drive%: %FreeSpace% free)
+InvalidDownloadPath=Invalid download folder. Please choose again.
+NoChoiceTask=No download task is selected.
+
+CloudFileRenameDuplicate=There is already a file with the same name in your Cloud!
+CloudFileRenameInvalid=Invalid file name!
+CloudFileRenameEmpty=You must type a file name!
+CloudFileRenameInvalidChar=A file name can't contain any of the following characters: \/:*?<>
+
+UploadStateLinking=Start uploading
+UploadStateDone=Upload completed
+UploadStateLoading=Upload %percent% %speed% Remaining time %timeleft%
+UploadStatePause=Uploaded %percent% Suspended
+UploadStateFailed=Upload failed
+UploadStateUnkownLeftTime=Unknown time
+;;=============================================================================
+;; Cloud file push notification
+;;=============================================================================
+[cloud-push-notification]
+FileTypeText=Text
+FileTypeImage=Image
+FileTypeLink=Link
+FilePushing=Pushing the %s...
+FilePushFail=%s pushing failed
+FilePushSucc=%s pushed successfully
+FilePushFailReasonLimited=Oops, you've exceeded your daily limit today!
+FilePushFailReasonSameTask=Reason: You have pushed the same file already.
+FilePushFailReasonCanceled=Reason: The reception has been cancelled.
+FileTypeFile=File
+FilePushFailReasonUserCancelled=Reason: User cancelled.
+RetryByCloud=Offline pushing
+FilePrePare=Preparing
+FilePushing2=Pushing
+FilePushingP2P=Ultra pushing
+FilePushFail2=Push failed
+FilePushP2PFail=Ultra connection lost
+FilePushSucc2=Pushed to %s successfully
+FilePushCloudSucc=Uploaded to the server successfully
+
+;;=============================================================================
+;; update notification
+;;=============================================================================
+[update-notification]
+Title=Maxthon Update
+NewVersion=New updates available!
+UpdateNow=Update now
+UpdateToNew=Maxthon is updating now...
+Downloading=Downloading...
+OK=OK
+
+;;=============================================================================
+;; Cloud file received notification
+;;=============================================================================
+[cloud-file-received-notification]
+ReceiveFilesTitle=Notification
+CheckItNow=Check it now
+TextNotifyText=%USERNAME% has sent you a message through Maxthon Cloud Browser.
+ImageNotifyText=%USERNAME% has sent you an image through Maxthon Cloud Browser.
+LinkNotifyText=%USERNAME% has sent you a link through Maxthon Cloud Browser.
+FileNotifyText=%USERNAME% has sent you a file through Maxthon Cloud Browser.
+;;=============================================================================
+;; Favorites Manager Page
+;;=============================================================================
+[fav-manager]
+Title=Favorites Manager
+TrashTitle=Recycle bin
+SearchResult=Search results
+RootTitle=My Favorites
+SearchInFav=Search in Favorites
+
+Expand=Expand
+Collapse=Collapse
+SortByTitle=Sort by title
+AddFolder=New folder
+AddBookmark=Add Favorite
+Rename=Rename
+Delete=Delete
+Trash=Move to the Recycle bin
+Open=Open
+Browse=Open item location
+Edit=Edit
+Hide=Hide
+Clear=Clear
+Yes=Yes
+No=No
+Save=Save
+Cancel=Cancel
+
+Port=Import/Export
+Sync=Synchronize online
+ReportProblem=Report problem
+UpdateSiteIcon=Update site icons
+Recover=Recover Favorites
+
+searchResultMore=View more results
+DeleteConfirm=Delete this item permanently?
+ClearTrashConfirm=Are you sure you want to empty the Recycle bin?
+Regenerate=Restore to root folder
+
+ItemTitle=Title
+ItemUrl=URL
+
+Copy=Copy
+Cut=Cut
+Paste=Paste
+PasteAlarm=The destination folder is a subfolder of the source folder.
+UnDo=Undo
+Duplication=Copy
+Restore=Restore
+AllSelect=Select all
+
+AllFavorites=All Favorites
+MostFavorites=Most favored
+MostVisited=Most visited
+Add=Add
+More=More
+
+CopyUrl=Copy URL
+CopyTitleAndUrl=Copy title and URL
+SetMostFav=Mark/Unmark as most favored
+ReplaceFav=Replace with current page
+OpenItems=Open All in this folder
+SortByVisitCount=Sort by visit count
+
+;;=============================================================================
+;; Skin Center
+;;=============================================================================
+[skin-center]
+SkinCenter=Select Skin
+Current=Current
+SelectImage=Select image
+ChooseColor=Choose color
+Layout=Layout
+RecentUsed=Recently used
+SaveToFile=Save current Skin...
+ShareAndGetSkins=Share and Get more Skins
+
+ConfirmSkinChangeCaption=Confirm Skin change
+ConfirmSkinChangeText=Do you want to use this skin?
+Home=Home
+Author=Author
+Version=Version
+SkinFileName=FileName
+GetMoreSkins=Get more Skins
+ConfirmDeleteSkinCaption=Delete Skin
+ConfirmDeleteSkinText=Are you sure you want to delete this Skin?
+
+;;=============================================================================
+;; History Page
+;;=============================================================================
+[history]
+Title=History
+
+DoSearch=Search
+KeywordsPlaceHolder=Search in History
+SearchTitle=Search results
+GetMore=View more results
+NoMoreHistory=No more records
+NoHistory=No History found
+NotFound=No match found
+Loading=Loading...
+
+ClearHistory=Clear History
+ClearHistoryConfirm=Are you sure you want to clear all History data?
+ConfirmYes=Yes
+ConfirmNo=No
+
+ReportProblem=Report a problem
+
+Day0=Sunday
+Day1=Monday
+Day2=Tuesday
+Day3=Wednesday
+Day4=Thursday
+Day5=Friday
+Day6=Saturday
+RemoveDay=Delete records for this day
+
+DurationToday=All
+DurationYesterday=Yesterday
+DurationWeek=Last week
+DurationMonth=Last month
+ViewLast=Last Session
+
+Newest=Newest
+Newer=Newer
+Older=Older
+
+CalendarDay0=Sun
+CalendarDay1=Mon
+CalendarDay2=Tue
+CalendarDay3=Wed
+CalendarDay4=Thu
+CalendarDay5=Fri
+CalendarDay6=Sat
+
+CalendarMonth0=Jan.
+CalendarMonth1=Feb.
+CalendarMonth2=Mar.
+CalendarMonth3=Apr.
+CalendarMonth4=May
+CalendarMonth5=June
+CalendarMonth6=July
+CalendarMonth7=Aug.
+CalendarMonth8=Sept.
+CalendarMonth9=Oct.
+CalendarMonth10=Nov.
+CalendarMonth11=Dec.
+
+CalendarPrevMonth=Prev
+CalendarNextMonth=Next
+
+CalendarYear=
+
+Today=Today
+
+SyncBarEnable=Sync History
+SyncBarOnline=View online History
+SyncBarUpdateTime=Last upload
+
+
+
+;;=============================================================================
+;; Quick Access Page
+;;=============================================================================
+[quick-access]
+NoService=Service unavailable. Please try later.
+TabSync=Cloud Tabs
+
+Title=New tab
+SearchLabel=Search
+Add=Add Website
+Edit=Edit
+Refresh=Refresh
+Delete=Delete
+Close=Close
+Save=Save
+Cancel=Cancel
+Open=Open
+OpenNew=Open in new tab
+
+EditorTitle=Edit website URL
+KeywordsPlaceHolder=Please input a keyword
+UrlPlaceHolder=Please input a URL
+
+MostVisited=Most visited pages
+LastVisited=Recently visited pages
+NothingRecommended=(Empty)
+
+Settings=Page Settings
+ShowDialList=Show Quick Access
+HideDialList=Hide Quick Access
+ResetToDefault=Restore defaults
+ReportProblem=Report a problem
+Maxthon=Maxthon
+
+Customize=Configure
+Background=Background image
+ChooseImage=Choose image
+WallpaperModeFill=Tile
+WallpaperModeCenter=Center
+WallpaperModeAutoFit=Fit
+WallpaperModeStretch=Stretch
+WallpaperModeClip=Fill
+DialOpenMode=Open in new tab
+HideEmptyDials=Hide blank frames
+ShowBlankPage=Hide Quick Access
+
+RestoreBackupData=Restore backup data
+Conflict_ConflictTip=Data conflicted
+Conflict_ResolveDataConflict=Resolve data conflict
+Conflict_info1=The Quick Access data on this computer has conflicted with the server.
+Conflict_info2=We used the data on the server for you and created an auto backup of local data.
+Conflict_ChooseWhichVersion=Choose which version you want to use manually.
+Conflict_OK=OK
+Conflict_Cancel=Cancel
+Conflict_CurrentVersion=Current version
+Conflict_LocalBackup=Local backup
+Conflict_items=items
+QuickAccess=Quick Access 
+WebNavigation=Site Navigation
+;;=============================================================================
+;; Last Visited Page
+;;=============================================================================
+[last-visited]
+Title=Last Session
+Report=Report a problem
+OpenPages=Open all
+ViewHistory=View History
+More=Earlier Session
+
+
+;;=============================================================================
+;; Folder View Page
+;;-----------------------------------------------------------------------------
+;; Used for browsing Local and FTP Folders
+;;=============================================================================
+[folder-view]
+KeywordsPlaceHolder=Search in this folder
+ParentFolder=Parent folder
+EndOfList=End of list
+Location=Location
+SearchLabelStart=Search results of "
+SearchLabelEnd=".
+ViewAllItems=View all
+Browsing=Browsing
+
+
+;;=============================================================================
+;; Crash Report Program
+;;=============================================================================
+[crash-report]
+Caption=Crash report
+Send=Send
+Cancel=Cancel
+Restart=Restore
+ViewReport=View error report
+ErrorTitle=Maxthon has encountered a fatal error
+CommentHolder=Contact info: \r\nProblem description:
+CheckSendCrashReport=Report an error
+ErrorMessage=Maxthon has encountered a fatal error. Please report the error to us to help solve the problem.
+PromptTitle1=Maxthon has caught an exception that occurred in
+PromptTitle2=
+PromptFileName=File name
+PromptCrashAddress=Exception address
+OK=OK
+
+;;=============================================================================
+;; MX4 Installer Program
+;;=============================================================================
+[mx4-installer]
+Cancel=Cancel
+Continue=Continue
+Finish=Finish
+
+Loading=Preparing...
+Accept=Accept
+ViewLicense=End User License Agreement
+InstallNow=Install now
+UseNow=Start using Maxthon
+Advance=Advanced
+SelectLocation=Select the install path
+SetDefaultBrowser=Set as default browser
+JoinUEIP=Join UEIP
+OnDesktop=Create Desktop shortcut
+InStartMenu=Create Start menu shortcut
+OnQuickLaunch=Create Taskbar shortcut
+Installing=Preparing to launch Maxthon...
+LaunchNow=Launch now!
+UEIPURL=http://www.maxthon.com/ueip/
+Warning=Attention
+CloseProgram=All Maxthon windows will be closed to continue with the installation.
+BindLicense=View User License Agreement
+CANCEL_INSTALL=Do you want to stop the installation?
+
+INSTALLER=Maxthon Installer
+SELECT_INSTALL_PATH=Please select the Install Path:
+INVALID_PATH=Invalid path. Please choose again.
+INSTALL_FAILED=Installation failed. Please change the Install Path and try again.
+
+;;-----------------------------------------------------------------------------
+;; Uninstall
+;;-----------------------------------------------------------------------------
+UninstallReason=Are you sure you still want to uninstall Maxthon Cloud Browser?
+RemoveUserData=Remove all user data, history and settings from this computer.
+CloseProgramMessage=All Maxthon windows will be closed to continue with the uninstallation.
+SavedAppDetected=The Maxthon App(s) you saved on this computer can still be used if you keep the Maxthon App Platform.
+KeepAppPlatform=Keep Maxthon App Platform
+Uninstalling=Uninstalling...
+Uninstalled=Maxthon Cloud Browser has been uninstalled. <br/>Thanks for supporting Maxthon.
+Uninstall=Uninstall
+
+ChooseUninstallReason=Tell us what went wrong:
+ProgramCrash=Freezes or crashes frequently
+WebpageSlow=Webpages load slowly
+WebpageIncorrent=Some websites don't work
+FunctionMissing=Lacking the feature I want
+LaunchSlow=It takes a long time to start Maxthon
+OtherOpinions=Other reason
+TalkTo=Contact:
+KeepData=Keep user data
+HopeSeeYouAgain=Come back soon!
+Bye=Done
+
+UNINSTALLER=Maxthon Uninstaller
+CANCEL_UNINSTALL=Do you want to stop the uninstall process?
+UNINSTALL_FAILED=Uninstallation failed. The uninstall process will be stopped.
+UninstallTitle=Uninstall Maxthon
+Complete=Complete
+
+;;-----------------------------------------------------------------------------
+;; snap-screen
+;;-----------------------------------------------------------------------------
+[snap-screen]
+CloudSend=Cloud Push to
+region_tip=Dimension: %d x %d\n\nColor: #%06X\n
+DefaultTextFont=Default Font
+DefaultTextSize=12
+SaveDialogTitle=Save as...
+PNGFilterName=PNG
+JPGFilterName=JPG
+BMPFilterName=BMP
+DefaultFileName=Untitled
+Tooltip_rect=Rectangle
+Tooltip_circle=Ellipse
+Tooltip_arrow=Arrow
+Tooltip_brush=Brush
+Tooltip_highlight=Highlight
+Tooltip_blur=Blur
+Tooltip_text=Text
+Tooltip_bubble=Bubble
+Tooltip_undo=Undo
+Tooltip_save=Save
+Tooltip_cancel=Cancel
+Tooltip_ok=Copy to Clipboard
+TextSizeSel=8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30
+Done=Copy
+Title=Snap Region
+Tooltip_drag=Drag Toolbar
+Share=Share on Weibo
+
+;;=============================================================================
+;;user-guide
+;;=============================================================================
+[user-guide]
+;;-----------------------------------------------
+;;general keys
+;;-----------------------------------------------
+mode_ok=OK
+mode_more=Read more...
+
+;;-----------------------------------------------
+;;ultra mode
+;;-----------------------------------------------
+ultra_mode_title=Lightning means you're in Ultra Mode!
+ultra_mode_message=Ultra Mode uses Webkit, making browsing much faster.<br> If you encounter broken pages, click here to switch to Trident Core.
+
+;;-----------------------------------------------
+;;compatible mode
+;;-----------------------------------------------
+compatible_mode_title=Automatically switched to Retro Mode.
+compatible_mode_message=This is a non-standard page;<br> Maxthon automatically switched to IE Retro Mode to display it correctly.
+
+;;-----------------------------------------------
+;;undo
+;;-----------------------------------------------
+undo_mode_title=Click here to reopen closed pages.
+
+;;-----------------------------------------------
+;;mute
+;;-----------------------------------------------
+mute_mode_title=Click here to disable page sound.
+mute_mode_message=Click again to enable page sound.
+
+;;-----------------------------------------------
+;;read mode
+;;-----------------------------------------------
+readmode_mode_title=Welcome to Reader Mode!
+readmode_mode_message=Click the gray icon above to read content in a simple format!
+readmode_action=Try it now!
+
+;;-----------------------------------------------
+;;install addon
+;;-----------------------------------------------
+install_addon_title=$addon$ has been successfully installed.
+install_addon_message=Click the icon to open the extension.<br>Manage it by right-clicking.
+;;-----------------------------------------------
+;;snapscreen
+;;-----------------------------------------------
+snap_msg_title=Take a screenshot with Snap feature.
+snap_msg_message=Press Ctrl+F1 or click the camera button to capture a screenshot.
+
+;;-----------------------------------------------
+;;mx-game tooltip
+;;-----------------------------------------------
+game_title=Welcome to MX Games
+;;-----------------------------------------------
+;;addon disabled tooltip
+;;-----------------------------------------------
+denied_addon_title=Following Extension(s) are disabled
+;;-----------------------------------------------
+;; Ballon Notification
+;;-----------------------------------------------
+[notification]
+FastSave.Title=Content saved
+FastSave.TargetSaved=Target has been saved to
+FastSave.Open=Open
+FastSave.Browse=Browse folder
+FastSave.Setting=Settings
+
+;;=============================================================================
+;; Web notification
+;;=============================================================================
+[web-notification]
+WebNotification=Web notification
+
+;;-----------------------------------------------
+;; Video FloatBar
+;;-----------------------------------------------
+[video-floatbar]
+DetachVideo=Pop-up
+Download=Download
+SniffedFileList=Sniffed resources list
+None=None
+Copy=Copy URL
+SaveAll=Save all
+;Settings=Settings
+;Save=Save
+SpeedUp=Skip
+SpeedUpTipMessage=<h3>Skip through any video</h3><p>Free yourself from annoying advertisements.<br>Click and hold this button to fast forward through the video.</p><p>More functions are available here.</p>
+VotedAndShare1=Liked by you and
+VotedAndShare2=other Maxthonians
+SharePlease=Share with your friends!
+VoteTooltip=Vote for this feature
+
+;;-----------------------------------------------
+;; Video Window
+;;-----------------------------------------------
+[video-window]
+Menu=Menu
+AlwaysOnTop=Always on top
+ExitWindowMode=Exit Window Mode
+
+AutoHideWindowFrame=Auto-hide window frame
+ResetSize=Reset video size
+DownloadVideo=Download video
+
+Copy=Copy URL
+SaveAll=Save all
+SniffedFileList=Sniffed file list
+
+
+;;-----------------------------------------------
+;; Rss
+;;-----------------------------------------------
+[rss]
+ViewInReader=View in Feed Reader
+Subscribe=Subscribe
+OpenReader=Open Feed Reader
+NotSubscribedTips=This feed is not in your subscriptions.
+HasSubscribedTips=You have already subscribed to this Feed.
+OpenEntryLink=Read more
+Loading=Loading...
+XmlFileMessage=You are viewing a XML file.
+GotoTop=Top
+SubscribeTo=Subscribe to:
+
+
+Title=Feed Reader
+Beta=Beta
+
+FeedList=Subscriptions
+AllFeeds=All items
+AllLoved=Starred items
+
+AddNewFeedTips=Please enter the feed URL.
+AddNewFolderTips=Please name a new folder.
+RemoveFeedTips=Are you sure you want to remove this feed?
+RemoveFolderTips=Are you sure you want to remove this folder?
+RenameTips=Please enter a new name for the folder.
+
+ExpandOrCollapseSidebar=Toggle Feed list
+ErrorContentHead=Error for:
+ErrorContentFoot=Please check feed URL. 
+ErrorTips=An error occured.
+TryUpdateAgain=Click to try again.
+Updating=Updating...
+Success=Done
+
+NewContentHead=View
+NewContentFoot=New item(s)
+SeeMoreContent=See more content
+NoMoreContent=No more content
+NoContent=No content
+
+SetLoved=Add star
+SetUnloved=Remove star
+SetRead=Mark as read
+SetUnread=Mark as unread
+
+ImportGRFeed=Import Google Reader feeds
+MainMenu=Menu
+Import=Import Feed list
+Export=Export Feed list
+Feedback=Send feedback
+
+Add=Add
+Cancel=Cancel
+Rename=Rename
+Remove=Remove
+
+AddNewFeed=Add new feed
+AddNewFolder=New folder
+CollapseAll=Collapse all
+ExpandAll=Expand all
+ReadAll=Mark all as read
+UpdateAll=Update all
+RenameFolder=Rename
+ReadItem=Mark as read
+UpdateItem=Update
+RemoveItem=Delete
+DisplayUnread=New
+DisplayAll=All items
+
+OpenOpmlTitle=Import Feed list
+SaveOpmlTitle=Choose export file name
+OpmlFilename=Feed list files (*.opml)
+XmlFilename=XML files (*.xml)
+DataLoaded=Feed list loaded.
+AllFilename=All files
+CopyXmlUrl=Copy feed URL
+Update=Update
+
+
+;;-----------------------------------------------
+;; account
+;;-----------------------------------------------
+[account]
+; reg
+Title=Maxthon Passport
+
+NetworkError=No network connection
+Password=Password
+
+;; profile
+NetworkErrorTip=Unable to connect to server. You can only use local data, the online service is temporarily unavailable.
+ReLinkNetNow=Reconnect
+ReLink=Reconnect
+PsdClientAndServerError=The current password is inconsistent with your account, please have a check and re-login.
+GoAccountCenter=Go to Maxthon Passport
+ReLogin=Re-login
+AccountLevel=Level
+AccountLevelMx4=Level
+MyDeviceMx4=My Devices
+AlreadybindAccountMx4=Connected Accounts
+OnlineFavorite=Online Favorite
+
+AccountEditTip=Account Settings
+AccountInformation=Maxthon Passport
+UpdateInformation=Update Information
+ChangeAccount=Switch Account
+LogoutAccount=Exit Account
+
+VerifiedAccount=Verified
+NotVerfiedAccountMx4=Unverified
+
+AccountService=Service
+CloudSync=MX Cloud Sync
+BrowserDataSyncMx4=Browser Data Sync
+Sync=Sync
+SyncLastTime=Last Sync:&nbsp;
+SyncPrevTimeMx4=Last Sync
+FileSize=Size:&nbsp;
+GetTypeInfor=Getting version information...
+OnlineTime=Online:&nbsp;
+Upgrade=Upgrade needed:&nbsp;
+OlTime=&nbsp;hours<br />
+Cancel=Cancel
+Setting=Settings
+ViewError=View Error
+pageloading=Data Loading. Please wait...
+Verification=Verifying account information...
+
+;; cloud
+Services=Services
+Log=Log
+Disable=Disable
+Disabled=Disabled
+ListSync=Sync
+listStop=Stop
+Enable=Enable
+Synchronizing=Synchronizing
+SyncError=Sync Error
+SyncErrorMx4=Synching failed, please check your network.
+SynchronizeAll=Synchronize All
+SyncOK=&nbsp;Synchronized
+SyncOKMx4=Sync Completed
+ClearLog=Clear Log
+config=Options
+quickaccess=Quick Access
+fav=Favorites
+smarturl=Smart Address Bar
+adfilter=Ads Filter
+magicfill=Magic Fill
+addonlist=Extension List
+tabs=Tab Sync
+TabSync=My Cloud Tabs
+TotalDataSize=Total Data Size
+ServicesHelp=These are built-in sync services of Maxthon.<br />You can enable and disable them here.
+
+;; deleteAccount
+Delete=Delete
+DeleteAccountTitle=Delete Account
+DeleteAccountFromList=Remove account from the list
+DeleteAccountAll=Remove this account data from this computer.
+DeleteAccountAllTip=This operation will delete all local browsing history, please be careful.
+DeleteCurAccountTip=You are using the account now
+DeleteCurAccountMessage=You will exit the current account after deleting the account and transfer to shared account
+
+;; login
+MxCloudLoginMx4=Login to Maxthon Passport
+Login=Login
+LoginAccount=Maxthon Passport
+MailAddressMx4=Email address or phone number
+LoginMailTipMx4=Please enter your email address or phone number
+LgoinPsdTip=Please enter your password
+
+moreOptionsMx4=More Options
+RememberPsd=Remember your password
+AutoLogin=Auto-login
+PublicPC=Public computer
+PublicPCTipMx4=Public computer (clear account data on exit)
+DisableCloudTabMx4=Disable Cloud Tab
+
+LoginAndWaitingMx4=Logging in. Please wait...
+ForgotPsd=Forgot password?
+NoAccountSignUp=Sign Up for Free
+RecoverPsd=Recover password
+Or=or
+NoAccountSignUpNew=Sign Up for Free
+
+LoginErrorTipMx4=Login failed
+LoginErrorCodeMx4=Error Codes
+LoginPhoneErrorTipMx4=Please enter your mobile phone country codes with "-", Eg. "86-phone number".
+ReLoginTip=Incorrect account or password. Please check!
+ReLoginTipMx4=Invalid account or password. Please enter again.
+VersionLowErrorTip=Login failed (Client outdated).
+LoginMailFormatTipMx4=This account is invalid.
+LoginPsdErrorTip=Incorrect account or password!
+
+BindOther=Other accounts:
+OtherAccount1=Facebook
+OtherAccount2=Twitter
+
+
+;; Exit Account
+OK=OK
+LogoutMessageTip=After exiting this account you will use the Favorites and Options of the browser's 'shared account'. Still want to exit?
+
+;; profile
+LinkingServerMx4=Reconnecting...
+ProfileErrorMx4=Cannot connect to the Internet. Switching to Offline Mode.
+ReLoginErrorTipMx4=Incorrect password. Please login again.
+TextDisableMx4=Data sync service disabled.
+NowSetting=Enable Data Sync
+
+
+;;-----------------------------------------------
+;;sniffer
+;;-----------------------------------------------
+[sniffer]
+SnifferList=Resource Sniffer
+URL=URL
+Size=Size
+DownloadSelected=Download
+SelectedItems=Selected items
+CopyUrl=Copy URL
+Download=Download
+Video=Video
+Audio=Audio
+Image=Image
+All=All
+CurrentPage=Current page
+AllPages=All pages
+
+;;-----------------------------------------------
+;;
+;;-----------------------------------------------
+[install-component]
+InstallingComponent=Loading Component
+
+;;-----------------------------------------------
+;; Save App
+;;-----------------------------------------------
+[save-app]
+SaveAsApp=Save as Quick Application
+SendToDesktop=Send to Desktop
+PinToTaskBar=Pin to TaskBar
+QuickLaunchBar=Create shortcut in Quick Launch Bar
+
+;;-----------------------------------------------
+;; App Frame
+;;-----------------------------------------------
+[app-frame]
+FullScreen=Full Screen
+TopMost=Always on Top
+ShowTray=Minimize to Tray
+DesktopLink=Send to Desktop
+Pin=Pin to Taskbar
+QuickLaunchBar=Create shortcut in Quick Launch Bar
+Share=Share with Friends...
+About=About
+ExitFullScreen=Click Here to Exit Full Screen
+tray-40001=Restore
+tray-40002=Exit
+CrossDomain=Cross Domain
+CrossDomainText=Cross-domain access is disabled according to the settings. 
+ExitApp=Click here to exit the app.
+
+;;-----------------------------------------------
+;; print preview
+;;-----------------------------------------------
+[print-preview]
+Title=Print Preview
+Caption=Maxthon Browser
+Custom=Custom...
+CBBlank=--Blank--
+CBCaption=--Title--
+CBURL=--URL--
+CBDate=--Date--
+CBPage=--Page #--
+CBPageTotal=--Page # of total pages--
+CBCustom=--Custom--
+TabPage1=Page Setup
+TabPage2=Headers and Footers
+Print=Print...
+PageSettings=Setup
+Prew=Prev.
+Next=Next
+Scale=Scale
+Horz=Landscape
+Vert=Portrait
+Close=Close
+AutoScale=Shrink to Fit
+Ok=OK
+Cancel=Cancel
+Format=Format
+Direction=Orientation
+PrintBack=Print Background
+Margins=Margins
+Top=Top
+Left=Left
+Right=Right
+Bottom=Bottom
+Header=Headers and Footers
+Option=Option
+FooterPageTotal=Page %1 of %2
+FooterPage=Page %1
+InputCaption=Custom...
+InputStatic=Input header & footer here
+
+;;-----------------------------------------------
+;; reader-mode
+;;-----------------------------------------------
+[reader-mode]
+ZoomIn=Zoom In
+ZoomOut=Zoom Out
+NightMode=Night Mode relieves eye strain.
+DayMode=Day Mode
+Setting=Settings
+ArticleWidth=Page width
+ArticleBgColor=Page color
+ArticleFont=Font
+SettingSave=Save
+SettingCancel=Cancel
+AutoModeon=Auto Reader Mode on $currentdomain$ (On)
+AutoModeoff=Auto Reader Mode on $currentdomain$ (Off)
+IKnow=OK
+SettingTxt=Click here to change page color and font.
+AutoModeTxt=Click here to auto-switch content pages on this website ($currentdomain$) to Reader Mode.
+AutoModeTip=Content pages on $currentdomain$ will be auto-switched to Reader Mode.
+CloseReader=Exit
+ReflectTitle=Click to send out current URL if any content is missing in Reader Mode.
+ReflectTip=Current URL has been recorded, thank you!
+ReflectTxt=If there is any content missing in Reader Mode, please click the button on the right side. And then we will record and analyze the page. 
+LoadingNext=Loading next page...
+LoadingNextErr=Click here to load next page (Shortcut Key →)
+LoadingNextTips=Continue to next page (Shortcut Key →)
+White=White
+Green=Green
+Pink=Pink
+Yellow=Yellow
+Blue=Blue
+Gray=Gray
+Loading=Loading Reader Mode...
+LoadError=Error loading Reader Mode
+
+
+;;=============================================================================
+;; magic fill popup list
+;;=============================================================================
+[magic-fill]
+FillForm=Fill Form
+SaveForm=Save Form
+Identities=General Identities
+None=None
+ManageSavedForms=Manage Magic Fill
+Login=Login
+
+;;-----------------------------------------------
+;;maxthon note2
+;;-----------------------------------------------
+[note2]
+Title=Maxthon SkyNote
+NoteList=Note List
+
+Lock=Lock
+Locked=Locked
+Delete=Delete
+New=New
+NoteNew=New Note
+NoteRename=Rename
+NoteDelete=Delete Note
+NoteLock=Lock
+NoteUnLock=Unlock
+NoteSync=Synchronize
+
+NotebookNew=New Category
+NotebookRename=Rename
+NotebookDelete=Delete Category
+    
+Menu=Menu
+SaveNote=Save as
+
+ImportNote=Import 
+Font=Font
+DataSync=Sync
+Statistics=Usage
+WindowTopShow=Always on top
+ReferUrl=Show source url
+SendNewNote=Always add to a new note
+    
+Color=Color
+ColorWhite=Default
+ColorRed=Red
+ColorBlue=Blue
+ColorYellow=Yellow
+ColorGreen=Green
+ColorPurple=Purple
+
+MySpaceTotal=Capacity:
+MySpaceUsed=Space used:
+StatisticsInfo=Account Info
+StatisticsCategory=Category (
+CategoryUnit=)
+StatisticsNote=Note (
+NoteUnit=)
+
+
+;;UnloginWarnInfo=Please login to Maxthon Passport to sync your notes.
+UnloginWarnInfo=Please login to Maxthon Passport to sync your notes.
+Register=Sign Up
+LoginWarnInfo=Please click the avatar to login to Maxthon Passport
+NoteWarnInfo1=Welcome to the new Maxthon SkyNote. We have enhanced its security, speed and stability.
+NoteWarnInfo2=Notice: Maxthon SkyNote (formerly 'Notepad') has a new name and new syncing protocol. New notes added in this release will not be visible when accessing 'Notepad', on earlier releases of Maxthon. 
+
+DefaultCategoryTitle=Default сategory
+DefaultNewCategoryTitle=Category-
+DefaultNewNoteTitle=Untitled-
+DeleteNoteWarn=Are you sure you want to delete it?
+DeleteLockedNotebookWarn=To delete this category, please unlock the notes first and try again.
+DeleteNotebookWarn1=Are you sure you want to delete it?
+DeleteNotebookWarn2=All notes saved in this category will be deleted.
+ImportDialogTitle=Import
+ExportDialogTitle=Save as
+TextFile=Text Files
+AllFiles=All Files
+SyncSuccess=Sync сomplete
+Syncing=Sync in progress
+SyncFail=Sync failed
+SyncNetException=Sync failed. Cannot connect to the internet.
+RefURL=Source url
+BtnIKnow=OK, I know
+BtnConfirm=OK
+BtnCancel=Cancel
+MultiNoteWarn=Sorry, this note exceeds our single note limit of 40kb in size. We have automatically divided it into smaller notes. Please name and save each.
+SpaceUseInfo=Usage Info
+NoteCopy=(Rename)
+MoveNote=Move note
+
+Copy=Copy
+Cut=Cut
+Paste=Paste
+
+;;=============================================================================
+;; Extensions Manager Page
+;;=============================================================================
+[ext-manager]
+Title=Extensions
+EnabledAll=Enable all
+DisabledAll=Disable all
+SearchInExt=Search for extensions
+GetMoreExt=Get more
+NewInstalled=New installed
+Disabled=Disable
+Enabled=Enable
+Delete=Delete
+AreYouSure=Are you sure?
+Option=Options
+Detail=Details
+Author=Developer
+AlertText=Malicious extensions may cause problems and invade your privacy. <b>You may delete any unnecessary extension(s).</b>
+
+;;--------------------------------------------------------------------------------
+;; Start Page
+;;---------------------------------------------------------------------------------
+[i.maxthon.com]
+RestoreLastSession=Restore Last Session
+
+
+;;=============================================================================
+;; New Options Page
+;;=============================================================================
+[options4]
+Title=Maxthon Settings
+
+SearchOptions=Search
+RestoreAllTip=Restore defaults
+AllConfirmTip=Do you want to restore all Settings to default?
+SavedTip=Settings saved
+
+GeneralTitle=General
+SearchTitle=Search engine
+TabTitle=Tab bar
+AddressTitle=Address bar
+PageTitle=Web content
+FillTitle=Magic Fill
+ProxyTitle=Proxy
+GestureTitle=Mouse Gesture
+HotKeyTitle=Shortcut Keys
+MoreTitle=Advanced
+
+MoveUpTip=Move up
+MoveDownTip=Move down
+ClearExceptionsTip=Remove all
+SearchTip=Search saved site...
+Reset=Reset
+
+NameTip=Name
+AliasTip=Alias
+ShortcutTip=Shortcut
+SearchURLTip=Search URL
+UsernameTip=Username
+SitesTip=Website
+GeneralFormNameTip=Identity name
+GeneralFormEmailTip=Email
+ProxySchemeTip=Type
+ProxyHostTip=Address
+ProxyPortTip=Port
+ShortcutsCmdTip=Command
+Password=Password
+Match=Match rules (Required)
+Rule=It does not support using * ? as wildcards in protocol and domain parts<br/>Valid: http://www.foobar.com/*<br/>Invalid: http://*.foobar.com/* <br/>Invalid: *://www.foobar.com/*
+FirstName=First name
+LastName=Last name
+BirthYear=Year
+BirthMonth=Month
+BirthDay=Day
+SecurityQuestion=Security question
+SecurityAnswer=Security answer
+Phone=Phone
+QQ=QQ
+Country=Country
+States=Province
+City=City
+ZipCode=Zip code
+Company=Company
+Address=Address
+Authentication=Authentication
+
+StartupTip=Open on startup
+NewTabPage=New tab
+LastNotClosePage=Last Session
+HomepageTip=Homepage
+
+MultiHomepage=Homepage
+AddNewUrl=Add a new page
+InputUrl=Enter URL...
+SetOpenTabs=Use current pages
+SetStart=Use Maxthon startup page
+SetWeb=Use Maxthon Navigation Website
+
+DefaultBrowserTip=Default browser
+MakeDefault=Keep Maxthon as Default Browser
+
+promptWhenClose=Warn on exit
+promptWhenCloseWithTabs=Ask for confirmation on exit, when multiple tabs are open
+
+Window=Window
+OnlyOneWindow=Allow only one Maxthon window
+WindowTip=Exception: Open new window from menu
+
+DownloaderSettingTip=Download Setting
+DefaultDownloaderTitleTip=Default downloader：
+DownUploadDefault=Upload photos, music and other certain types of files to my Cloud
+DownUploadAll=Upload all download files to my Cloud
+DownUploadForbid=Do not upload any download files to my Cloud
+
+
+DefaultEngine=Default search engine
+RestoreEnginesTip=Reset to default
+CommonSearch=Search Engine Management
+AddFromRecommendList=Add from recommended search engines
+
+ConfirmRestoreEnginesTip=Do you want to reset all search settings to default?
+SearchURLToolTip=Insert %s in the URL where the search terms should appear.
+SearchEngineDesc=To restore removed search engine, click "Reset to default" or "Add from recommended search engines".
+RequiredTip=Required
+EngineHotKeyValid=Can't be the same as any existing one.
+NoSelect=You have not made a selection.
+removeConfirm=Do you want to remove the selected?
+RecommendList=Recommended search engines
+ClickAdd=Click to add
+ClickDel=Click to delete
+MultiSearchEngine=Maxthon Multi-Search
+
+NewTabPosition=New tab position
+NewTabTip=Open a new tab:
+NewCurrentTabRight=To the right of current tab
+NewAllTabsRight=To the right of all tabs
+
+TabOpeningTip=New tab action
+TabNewOnLocation=Open a new tab from the address bar
+TabOpenFromSearchLinks=Open a new tab from the search bar
+TabActiveOnBookmark=Open a new tab from Favorites
+TabNewOnLinks=When opening a link in a new Tab, place new tab on top
+
+TabClosingTip=Close tab
+CloseByDBClickTip=Double-click to close tab
+TabCloseOnContext=Right-click to close tab
+TabCloseOnContextTip=(Hold 'Shift' and right-click on a tab to get the tab menu)
+TabSwitchOnClose=After closing a tab switch to:
+TabSwitchLeft=Tab to the left
+TabSwitchRight=Tab to the right
+TabSwitchLast=Last visited tab
+
+TabCloseIconTip="X" Close Tab button
+ShowTabCloseIconTip=Show Close Tab button on background tabs
+
+SmartBoxTitleTip=Smart Address Bar
+SmartFavariteTip=Show Favorite items in suggestions
+SmartHistoryTip=Show History items in suggestions
+UrlAutoCompltete=Enable URL auto completion
+favURLTip=Show related Favorite items in Smart Address suggestions
+historyURLTip=Show related History items in Smart Address suggestions
+
+
+ResetTouchDataTip=Do you want to reset URL Alias Settings to default?
+
+OnetouchTitle=Navigation
+EnableOneTouchTip=Enable URL alias
+enableTargetUrlTip=Set your commonly used URLs as Alias to make the browsing more convenient. 
+ResetTouchData=Reset to default
+OneTouchShortcutTitle=URL Shortcut key
+ShortcutHelperTip=Example: Set Alias 'F1' for URL 'http://www.maxthon.com', then you can press 'F1' to get maxthon.com.
+TouchShortTitleTip=(Your shortcut command settings will be overwritten by URL shortcut keys. You can enter multiple URLs, separated by spaces)
+NoShortcutAvailable=All shortcut commands are already in use. You can delete a previous shortcut that is no longer needed to set a new one. 
+NoData=No content
+WebStoreHeaderTip=URL Alias
+TargetHelperTip=Example: Set Alias 'mx' for URL 'http://www.maxthon.com' and then type 'mx' in address bar to get maxthon.com.
+WebNickName=Alias
+WebURLTip=URL
+RepeatValid=Repeating not allowed.
+
+PageZoomTip=Page Zoom
+PageZoomDefultTip=Default page Zoom:
+PageZoomValueTip=You can enter multiples of 10 (Range: 50-300). Click the blank area to save it.
+
+VideoPopup=Video popup
+VideoPopupTip=Show Video Popup button
+VideoFloatbar=Video floatbar
+VideoFloatbarTip=Show Video floatbar
+
+PopupBlocker=Popup Blocker
+PopupBlockerEnable=Enable Popup Blocker
+
+ImageQuickSaveTip=Quick Save images
+ImageCtrlSaving=Quick Save images by clicking while holding the CTRL key
+SavePathTip=Default Save Location for Images:
+ChangeSavePathTip=Browse...
+SameNameConfigTip=If a file with the same file name exists, then
+AutoRenameTip=Rename automatically
+AutoReplaceTip=Replace current file automatically
+
+Privacy=Privacy
+
+spellCheck=Spell Check
+EnableSpellCheck=Enable Spell Check
+SelectLang=Select language
+SelectLangTip=Select language
+GetMoreLanguage=Get more
+
+EnableMagicFill=Magic Fill Settings
+magicfillToolTip=Right-click in the username or password input box, select "Save" to save password, or "Fill" to fill the password manually.
+AutoMagicFill=Auto
+ManualMagicFill=Manual
+DisableMagicFill=Do not enable
+savedPasswordTip=Saved passwords
+ExceptionsTip=Exceptions
+GeneralFormTip=General identities
+ShowPasswordTip=Show password
+HidePasswordTip=Hide password
+NoPassword=[No Password]
+PassPortCurrentTip=Current user
+PassPortPasswdTip=Your password
+ValidPassPortFalse=Invalid password
+ExceptionsConfirmTip=Do you want to remove all sites from exceptions?
+GeneralFormPasswdTip=Password
+MagicfillListDesc=To select a group of items hold 'Shift'/'Ctrl'.
+
+ProxyChooseTip=Proxy Settings
+ProxyNoChooseTip=No Proxy
+ProxyIEChooseTip=Use IE Proxy
+ProxyCustomChooseTip=Use custom proxy setting
+ProxyUserNameTip=Username
+ProxyPassWordTip=Password
+ProxyExceptionTip=Proxy Settings
+ProxyWhite=Use proxy server for
+ProxyBlank=Bypass proxy server for
+ProxyLocalDisableTip=Bypass proxy server for local addresses
+ProxyRuleTip=Proxy rule examples:<br/>1 *foobar.com; *.foobar.com; http://*foobar.com:99<br/>2 .google.com; http://.google.com<br/>3 192.168.1.1; http://192.168.1.1:99<br/>4 192.168.1.1/16<br/>5 127.0.0.1; localhost
+
+MouseDrag=Drag and Drop
+EnableMouseSuperDragDropTip=Enable Drag and Drop
+DefineMouseGestureTip=Mouse Gesture
+EnableMouseGestureTip=Enable Mouse Gesture
+MouseGestureColorTip=Color of Mouse Gesture trail
+ResetGestureColor=Reset color
+MouseGestureActionTip=Action
+RestoreGestureTip=Reset to default
+ConfirmRestoreGestureTip=Do you want to reset all Mouse Gesture Settings to default?
+Browsing=Browsing
+Tab=Tab
+Function=Feature
+cmd.null=No Command
+
+ShortcutsCustomTip=Customize shortcuts
+AddHotkey=Set
+EnableBossKeyTip=Enable Boss Key
+EnableBossKeyHelp=Click to change Boss Key
+ShortcutsConfirmRestoreTip=Do you want to reset all shortcuts?
+ShortcutsRestoreTip=Reset to Default
+ShortcutNoEditTip=This shortcut cannot be modified!
+ShortcutKeywordTip=This shortcut is reserved. 
+ShortcutReplaceTip=This shortcut is already in use. Reassign automatically?
+ShortcutDelConfirmTip=Do you want to remove the selected set?
+
+StatusLine=Status Bar
+StatusLineTip=Show Tips and Tricks on Status Bar
+
+ShowPopupMsg=Popup Message
+ShowPopupMsgTip=Show Maxthon popup messages
+
+FavoriteTitle=Favorites
+EnableMoreFavorite=Enable multi-column Display Mode
+EnableFavoriteMode=Enable Compact Mode for Favorites bar
+FavoritePromptTip=Better Display Mode when menu is too long.
+
+Translation=Translation
+TranslateActionEnable=When you click Translation button, enable by default:
+TranslateWord=Translate selected text
+TranslatePage=Translate current page
+TranslateToolSelect=Translation tool:
+
+SystemDockIconTip=System tray icon
+DockIconEnable=Always show icon in system tray
+DockIconMinisize=Minimize to system tray
+DockIconExit=Close to system tray
+
+EnforceWebkitMode=Always use Ultra Mode (Some websites might be displayed incorrectly)
+EnableIE9ModeTip=Enable standard rendering in Retro Mode
+EnableIE9ModeHelperTip=This option is available on IE8 or higher versions
+EnableEffectSlide=Enable smooth scrolling
+
+PageView=Webpage display
+PageFontView=Web page font
+DefaultFontName=Default font
+SelectFont=Select
+ResetFont=Reset
+PageFontViewDesc=Changing the page font may lead to the incorrect page display.
+DefaultCoding=Default encoding
+
+PageContent=Content Control
+EnablePluginsContent=Allow all sites to run plug-ins
+EnableCookieContent=Allow cookie on all sites
+ThirdPartyCookiePolicy=Third-party cookie policy:
+AllowVisited=Auto
+Allow=Allow
+Forbid=Forbid
+OpenGpuHardwareAcceleration=Enable GPU hardware acceleration
+NeedRestart=Browser restart required
+
+CertificateManagementTip=Certificate Management
+OpenCertificateManagementTip=Enter Certificate Management
+
+OnlineUpdate=Update
+CheckBetaUpdate=Check the latest beta version
+AdvancedUncategorizedTip=Others
+CacheFolderTip=Cache location
+SelectCacheFolder=Browse...
+EnableDNT=Tell websites I do not want to be tracked
+UeipEnableTip=Join User Experience Improvement Program
+UeipInfo=More
+CustomUAString=Customize UserAgent string
+CustomUAStringDesc=We recommend to read more about User Agent settings before attempting to change it.
+
+NoSearchData=No result for your query, please try again.
+
+GestureU=Up
+GestureD=Down
+GestureL=Left
+GestureR=Right
+GestureUD=Up Down
+GestureUL=Up Left
+GestureUR=Up Right
+GestureDU=Down Up
+GestureDL=Down Left
+GestureDR=Down Right
+GestureLU=Left Up
+GestureLD=Left Down
+GestureLR=Left Right
+GestureRU=Right Up
+GestureRD=Right Down
+GestureRL=Right Left
+
+GestureMX.CLHR=Hold Right button then Left click
+GestureMX.CRHL=Hold Left button then Right click
+GestureMX.MUHR=Hold Right button then Scroll Up
+GestureMX.MDHR=Hold Right button then Scroll Down
+
+;;-----------------------------------------------------------------------------
+;; multimedia-access
+;;-----------------------------------------------------------------------------
+[multimedia-access]
+ASK_USE_CAMERA= $1 will use your camera.
+ASK_USE_MICROPHONE= $1 will use your microphone.
+ASK_USE_CAMERA_AND_MICROPHONE= $1 will use your camera and microphone.
+ALWAYS_REMERBER=Always remember user's choice.
+OK=Allow
+CANCEL=Deny
+
+;;-----------------------------------------------------------------------------
+;; message-center
+;;-----------------------------------------------------------------------------
+[message-center]
+Maxthon=Maxthon Browser
+AfterImport.Text=Maxthon will keep your Favorites in the Cloud. Sign up for Maxthon account and sync your Favorites across different devices!
+AfterImport.Button=Sign up now
+AfterImportOther.Text=Maxthon will keep your Favorites in the Cloud. Sign up for Maxthon account and sync your Favorites across different devices!
+AfterImportOther.Button=Sign up now
+AfterExport.Text=Are you still storing your Favorites on the local machine? Sign up for Maxthon account and sync your Favorites across all of your devices!
+AfterExport.Button=Sign up now
+
+ReachAmount.Text=Your Favorites are priceless. Sign up for Maxthon account and keep your bookmarked pages safely stored in the cloud.
+ReachAmount.Button=Sign up now
+MagicFillInfoBarSaved.Text=Maxthon helps you remember your login credentials. Sign up for Maxthon account and sync your saved passwords across different devices!
+MagicFillInfoBarSaved.Button=Sign up now
+MagicFillMenuClick.Text=Your login credentials have been recorded. Keep your information safe in the encrypted Cloud.
+MagicFillMenuClick.Button=Sign up now
+
+;;-----------------------------------------------------------------------------
+;; adblock
+;;-----------------------------------------------------------------------------
+[AdBlock]
+ShareMessage=Maxthon with Adblock Plus helped me to block %d ads!
+RuleExists=Filter already exists
+DomainInput=Enter a domain.
+DomainExists=This domain already exists
+Updating=Downloading...
+Failed=Download failed.
+UpdateTime= - Last update: 
+AdblockOptions=AdBlock Plus Options
+FilterLists=Filter lists
+WhitelistedDomains=White List Domains 
+EditAdblockRules=Create your filters
+FilterAdsOnWebpages=Enable AdBlock Plus
+EnableTips=Enable only the filter lists you actually need. Enabling too many may negatively affect your browsing experience. 
+FeedbackText=Out-of-date lists are regularly updated. Found a bug?
+FeedbackLink=Let us know! Enter your message here.
+AddOtherFilter=+ Add
+ChooseFilterText=Choose a filter subscription from the list:
+AddFilterList=Add
+WhitelistedText=Adblock Plus is disabled for the domains listed below. You can add a domain either via the Adblock Plus icon or by typing the domain (not a URL) in the box and clicking the "Add domain" button.
+WhitelistedNoValue=Enter a domain
+AddDomain=Add domain
+FilterSyntaxText=You may add your own filter. Your filter must follow the
+FilterSyntaxLink=Adblock Plus filter syntax.
+DeleteSelected=Remove selected
+UpdateFilterListsManually=Update now
+Done=Done
+maxthonlist=Maxthon List
+
+;;### Language File for Maxthon ###
+;;=============================================================================
+;; Select Device
+;;=============================================================================
+[select-device]
+AddDevice=Add a device
+AddNewDevice=Add a new device
+OK=OK
+Cancel=Cancel
+IKnow=I know
+NoDeviceInfo=To use your Cloud (to push to and pull files and tabs from other devices) login to your Maxthon Passport account.
+Mobile=Mobile phone
+Pad=Tablet
+PcMachine=PC
+IPhone=iPhone
+Android=Android phone
+IPad=iPad
+AndroidPad=Android Pad
+PC=PC
+MAC=MAC
+MenuTitle=Cloud Push to...
+CloudDisk=My Cloud
+CloudPush=Cloud Push
+SelectDevice=Select device
+ShareWithFriends=Share with friends
+Receiver=Push to
+Post=Note
+NoRecords=No push records yet
+TooMany=You can enter up to 5 friends
+PostLimited=The note should be within 140 characters.
+NoReceiver=Please enter the email address/phone number, seperated by ‘;’
+EmptyError=Please enter the recipient
+FormatError=Invalid phone number/email address
+HintReceiver=Up to 5 friends
+HintPost=You can enter %s more character(s)
+HintPostFail=%s character(s) exceeded
+Send=Send
+QuotaAbove=You've exceeded your daily limit today.  Please try again tomorrow.
+
+Add=Add
+Remove=Remove
+New=New
+Edit=Edit
+Modify=Modify
+Rename=Rename
+Delete=Delete
+Undo=Undo
+Cut=Cut
+Copy=Copy
+Paste=Paste
+
+Search=Search
+SelectAll=Select all
+
+;;=============================================================================
+;; UnLogin
+;;=============================================================================
+[unlogin]
+UnLoginTitle=Login to your Maxthon Passport account
+UnLogin=You are not logged in
+UnLoginInfo=Login to your Maxthon Passport account to push items to other devices.
+UnLoginInfoFromCloudDownload=Login to your Maxthon Passport account to upload downloaded files to your Cloud.
+Login=Login
+NoAccountSignUp=Sign Up for Free
+UnLoginInfoFromSkynote=Login to your Maxthon Passport account and sync your notes across multiple devices.
+UnloginInfoFromFavorites=Login to your Maxthon Passport account and sync your Favorites across multiple devices.
+UnLoginInfoFromHistory=Login to your Maxthon Passport account and backup your History online.
+UnLoginInfoFromCloudTab=Login to your Maxthon Passport account and view tabs from other devices.
+
+;;=============================================================================
+;; Receive Files
+;;=============================================================================
+[receive-files]
+ReceiveFilesTitle=Notification
+CheckItNow=Check it now
+Content=Received %s, from my %s
+Link=link(s)
+Text=message(s)
+Image=image(s)
+File=file(s)
+MoreType=Several messages
+MoreDevice=Multiple devices
+
+
+;;### Language File for Maxthon ###
+;;-----------------------------------------------------------------------------
+;;ExtTools
+;;-----------------------------------------------------------------------------
+[EXTTOOLS]
+title=External Tools
+ExternalTools=External Tools
+Add=Add
+EditExternalTool=Edit External Tool
+Browse=Browse
+ProgramFile=Startup Directory
+DisplayTitle=Name
+MoreOptions=More
+LessOptions=Less
+OK=OK
+Cancel=Cancel
+Parameters=Arguments
+StartWithMX=Start with Maxthon
+StartMinimized=Start minimized
+ExitWithMX=Close with Maxthon
+AddToToolbar=Display in toolbar
+Edit=Edit
+Delete=Delete
+Undo=Undo
+Cut=Cut
+Copy=Copy
+Paste=Paste
+SelectAll=Select all
+MSGTITLE=Alert
+AddExtToolsExist=A tool with the same name already exists, add it?
+
+;;-----------------------------------------------------------------------------
+;; Status Message
+;;-----------------------------------------------------------------------------
+[EXTINFO]
+title=System Information
+cpu=CPU Usage
+in=Download Speed
+out=Upload Speed
+ph=Available Physical Memory
+vt=Available Virtual Memory
+lip=Local IP
+nip=Public IP
+
+;;### Language File for Maxthon ###
+;;-----------------------------------------------
+;; AddonMisc
+;;-----------------------------------------------
+[AddonMisc]
+AutoRefresh=Auto Refresh
+Setting=Settings
+Sec=Sec
+Min=Minute
+Hour=Hour
+Day=Day
+NotRefresh=Disabled
+Customize=Customize freq[%1]
+CustomRefreshSet=Set Frequency
+RefreshNow=Refresh
+download=Download Manager
+Favorites=Favorites
+FeedReader=Feed Reader
+notepad=SkyNote
+Translate=Translate
+translate.selectedText=Translate Selected Text
+translate.page=Translate Page
+SnapScreen=Snap
+fileSniffer.open=Resource Sniffer
+app.launch.mxExpressLookup=Express Lookup
+snapScreen.region=Snap Region
+snapScreen.page=Snap Whole Page
+help=Help
+MagicFill=Magic Fill
+history.openClearDialog=Clear browsing data
+devtools.open=Developer Tools
+
+;;-----------------------------------------------------------------------------
+;; Customize Auto Refresh Setting
+;;-----------------------------------------------------------------------------
+[RefreshFreSet]
+TabFreshFreqManager=Frequency Setup
+FreshFreqTime=Refresh every
+Sec=Sec
+ShortTips=Please do not set too short refresh interval.
+Setting=Save
+Cancel=Cancel
+
+;;-----------------------------------------------------------------------------
+;; Quick Launch Manager
+;;-----------------------------------------------------------------------------
+[Identity]
+title=Session
+OpenAll=Open All
+QuickLMgr=Session Manager
+
+[IdentifyManager]
+WorkspaceManager=Session Manager
+Title=Title
+DefaultWndName=Session
+ShortcutTip=You can use Shortcut key "Alt"+"~" to switch window.
+DLG_DELBTN=Delete
+AddWorkspace=Add New Session
+Done=Done
+SetKey=Setting
+EditWorkspace=Edit Session information
+Workspace=Name
+TargetUrl=Target Url
+Username=User Name
+Password=User Password
+EnableOneClickLogin=Enable Auto Login
+OneClickLoginNotice=Auto Login is invalid in some websites.
+Save=Save
+Cancel=Cancel
+Undo=Undo
+Cut=Cut
+Copy=Copy
+Paste=Paste
+Delete=Delete
+SelectAll=Select all
+Edit=Edit
+WorkspaceName=Window Name
+
+;;-----------------------------------------------------------------------------
+;; Night Mode
+;;-----------------------------------------------------------------------------
+[NightMode]
+toolbartips=Night Mode
+menuapply=Switch to Night Mode
+menuapply_on=Switch to Normal Mode 
+menuconfig=Custom config...
+NightModeSettings=Night Mode Settings
+AutoSwitch=Switch between
+PageStyle=Page Style
+Text=Text
+Background=Background
+LinkText=Link Text
+VisitedLink=Visited Link
+Apply=Preview
+Save=Save
+Cancel=Cancel
+Undo=Undo
+Cut=Cut
+Copy=Copy
+Paste=Paste
+Delete=Delete
+SelectAll=Select all
+
+;;------------------------------------
+;;Install addon
+;;------------------------------------
+[addon-dialogs]
+InstallAddon=Install Extension
+FileSize=File Size
+Components=Components
+InjectScript=Page Script
+BackgroundService=Background Service
+SidebarButton=Sidebar icon
+ToolbarButton=Toolbar button
+UpdateMxMessage=Program Update Required
+RequiredMxVersion=Required App Framework Version
+CurrentMxVersion=Current App Framework Version
+InstalledMessage=You have already installed this Extension.<br> You can reinstall or update it.
+WarningOnMaliciousAddon=Malicious extensions may cause problems and invade your privacy.
+Install=Install
+InstallAnyway=Install anyway
+Update=Update
+Cancel=Cancel
+Downloading=Downloading
+DownloadError=Failed to download file.
+TryAgain=Try again
+InvalidPackage=Invalid Package
+PackageIsInvalid=Cannot read the content of the package. The file may be corrupted, please download again.
+OK=OK
+RemoveAddon=Remove Item
+ConfirmRemoveMessage=Are you sure you want to remove all components of this extension?
+CustomizeUiTipMessage=You can hide buttons in Customize UI.
+Remove=Remove
+
+
+;;### Language File for Maxthon ###
+;;-----------------------------------------------------------------------------
+;; mobile app-promotion
+;;-----------------------------------------------------------------------------
+[app-promotion]
+Title=Maxthon for Android Phones
+ContextText=Superior speed and Cloud services let you sync your web experience across all platforms. Surf in style with multiple skins and features you can't get anywhere else.
+Go=Try Maxthon for Android
+
+Prompt=Hey, an Android device!
+PromptTitle=Welcome to Maxthon for Android
+PromptTxt=This browser works across all major platforms to bring you seamless browsing from all of your devices. 
+Install=Install now
+GoHome=Maxthon Website
+DontTip=Don't show again
+SuccessTitle=Maxthon Cloud Browser for Mobile has been installed successfully
+SuccessTxt=Can't wait to try!
+
+DimensionalCode=Mobile device detected!
+DimensionalCodeTitle=Download Maxthon Mobile to browse fast and smooth!
+DimensionalCodeTxt=Get seamless cross-device web browsing wherever, whenever. Scan the QR code or go to www.maxthon.com on your device to download.
+
+
+;;### Language File for Maxthon ###
+
+[mxdock]
+Tooltip.More=Add
+Tooltip.Config=Config
+Tooltip.Start MX=Start Maxthon!
+MxDock.Menu.Manager=Extension Manager
+MxDock.Menu.Details=Details
+MxDock.Menu.Option=Option
+MxDock.Menu.Remove=Remove
+MxDock.Menu.CloseAllApp=Close all Extensions
+MxDock.Menu.Setting=Setting
+MxDock.Menu.Options.Largeicon=Translucence
+MxDock.Menu.Options.SmallIcons=Classic
+MxDock.Menu.Options.WaveSkin=Water wave
+MxDock.Menu.Options.custom=Custom colors...
+MxDock.Menu.Options.Skin=Skin
+MxDock.Menu.Options.MxToday=
+MxDock.Menu.Options.ShowAddones=Display extensions
+MxDock.Menu.Options.Startup=Run on startup
+MxDock.Menu.Options.PinDesktop=Pin Sidebar to Maxthon
+MxDock.Menu.Options.Add.Addones=Get more extensions...
+MxDock.Menu.Options.Add.URL=Add websites
+MxDock.Menu.CloseMXDock=Exit Maxthon Dock
+MxDock.Menu.About=About Maxthon...
+MxDock.Menu.OpenByQRCode=Open website on your smart phone with a two-dimension code!
+MxDock.Alert.Error1=Sorry, the website isn't working.
+MxDock.Alert.Crash=Snap! Maxthon Dock crashed. How embarrasing!
+
+
+;;### Language File for Maxthon ###
+;;=============================================================================
+;; Online Installer Program
+;;=============================================================================
+[online-installer]
+DownSpeed=Speed:
+Downloading=Downloading...
+CannotCalTime=Unable to determine remaining time.
+CalTime=Please wait...
+RetryIt=Retrying...
+RequestFailed=Failed to download.
+RemainTime=Time remaining:
+
+MainTitle=Maxthon Cloud Browser Installer
+DlgTitle=Maxthon Cloud Browser
+CANCEL_INSTALL=Are you sure you want to stop? C'mon...:)
+FAILED_INSTALL=Error! Failed to install Maxthon. Please retry later or click the link below for another option.
+SUCCESS_INSTALL=Hurray! Maxthon has been successfully installed!
+FAILED_SAVEFILE=Failed to install Maxthon. Please retry later or click the link below for another option.
+FAILED_FILEERR=Error! Maxthon has not been installed. Please retry later or click the link below for another option.
+FAILED_VERINFO=Error! Maxthon has not been installed. We can't obtain the correct set-up file information. Please retry later or click the link below for another option.
+FAILED_NETWORK=The internet connection appears to be unstable. Please retry later or click the link below for another option.
+FAILED_WINVER=Sorry, your version of Windows does not meet minimum requirements necessary to install Maxthon. You need to upgrade to Windows XP or higher.
+FAILED_SYSTEM=Error! Maxthon has not been installed. Please retry later or click the link below for another option.
+OfflineUrl=http://www.maxthon.com/
+BallonTitle=Preparing installation...
+BallonInfo=It may take a few minutes to complete the process. Please wait.
+
+Loading=Preparing...
+Accept=Accept
+ViewLicense=End User License Agreement
+InstallNow=Install now
+UseNow=Start using Maxthon
+Advance=Advanced
+SelectLocation=Select the install path
+SetDefaultBrowser=Set as default browser
+JoinUEIP=Join UEIP
+OnDesktop=Create Desktop Shortcut
+InStartMenu=Create Start menu Shortcut
+OnQuickLaunch=Create Taskbar Shortcut
+Installing=Preparing to launch Maxthon...
+LaunchNow=Launch now
+UEIPURL=http://www.maxthon.com/ueip/
+Warning=Attention
+CloseProgram=All Maxthon windows will be closed to continue with the installation.
+BindLicense=View User License Agreement
+
+INSTALLER=Maxthon Installer
+SELECT_INSTALL_PATH=Please select the Install Path:
+INVALID_PATH=Invalid path. Please choose again.
+INSTALL_FAILED=Installation failed. Please change the Install Path and try again.
+
+DownloadSlow=The download speed is too slow
+DonotLikeOnline=I want to download the file package to my computer
+DonotInstall=I don't want to install Maxthon browser anymore
+InstallByMistake=Installed it by mistake
+InstallProblem=I've encountered a problem during the installation
+OtherOpinions=Other reason
+
+OK=OK
+Continue=Continue
+Cancel=Cancel
+Retry=Retry
+Stop=Stop
+Close=Close
+Exit=Exit
+Finish=Finish
+Yes=Yes
+No=No
+
+Undo=Undo
+Cut=Cut
+Copy=Copy
+Paste=Paste
+Delete=Delete
+SelectAll=Select all
+
+[updater]
+Caption=Maxthon update
+Cancel=Cancel
+Ok=OK
+Finish=Finish
+Close=Close
+Update=Update
+Restart=Continue
+Delay=Update on next startup
+VisitWebsite=Visit official website
+CheckUpdate=Checking updates...
+CheckUpdateWait=Checking updates, please wait...
+NoUpdate=No update available
+NoUpdateMessage=You are using the latest version of Maxthon.\r\n\r\nCurrent Version: #VERSION#
+FoundUpdate=Updates available
+FoundUpdateBalloon=Updates available for Maxthon
+FoundUpdateBalloonText=Click here to install
+UpdateFileSize=File size: #SIZE#
+Updating=Updating...#PERCENT#
+DownloadInfo=Downloading: #SIZE#, #SPEED#kb/s, (#TIME#) ...
+UpdatePromptText=New version available. Click "Update" button to proceed.
+UpdateReady=Ready to update Maxthon to version #VERSION#
+NeedRestart=Program is running
+AskRestart=We must close the program before updating it.\r\nPlease click "Continue" to proceed.\r\nIf you choose "Update on next startup", the program will be updated next time you start it.
+Installing=Installing updates...
+UpdateFailed=Update failed
+UpdateDone=Successfully updated
+FailMessage=Update failed due to the following reason:
+DoneMessage=Maxthon has been updated to version #VERSION#
+InstallFileWait=Updating files, please wait...
+DelayUpdatePromptText=Update postponed.\r\nMaxthon will be updated automatically next time you start it.
+DelayUpdateCaption=Maxthon Update
+
+[QuickAccess]
+DocumentTitle=New tab
+NoSearchResult=Sorry, no matching result found.
+QuickAdd=Add to Quick Access
+UrlInputError=Wrong URL. Please try again.
+Url=URL
+Title=Title
+Ok=OK
+Cancel=Cancel
+Background=Background
+Thumb=Website logo
+NewTabOpen=Open in new tab
+BackgroundPush=Display recommended background image
+SearchTab=Search
+EditTabToWidgetError=There is not enough space on this page to add this app. Please select another page.
+MaxPageNumTip=You could add 9 pages at most.
+MinPageNumTip=Sorry, you can not delete the last page
+ConfirmDel=Are you sure you want to delete this page?
+MaxPicTip=The maximum image size is 5MB.
+CustomAdd=Add
+Add=Add
+Area=Filled areas:
+CustomPic=
+BlankPage=Blank
+Open=Open
+Edit=Edit
+Flush=Refresh
+Delete=Delete
+DeleteWidget=Delete this app
+Rename=Rename
+WidgetDisabled=The application has been disabled. You can remove the tile now.
+TabSync=Cloud Tabs
+HotTab=Websites
+HotWidget=Apps
+WidgetList=Apps
+ColorBlock=Background color
+WebThumb=Website screenshot
+AddressAddError=Not enough space on this page for a new Quick Access tile.
+HideBlankGrid=Hide blank tiles
+DismissWidget=Ungroup
+ConfirmDismissWidget=After ungrouping tiles will be restored to normal size. Do you still want to ungroup?
+DismissWidgetErr=There is no space available on the page.
+addUrl=Add websites
+FullWidgetErr=Not enough space to add URL.
+Sort=Sort
+PleaseStayTuned=More is coming!
+TryNow=Try now
+HideQuickAccess=Hide Quick Access
+HideTheSidebar=Hide the sidebar
+CurrentlyVisitedPages=Currently open pages
+MostVisitedPages=Most visited pages
+MyFavorites=My Favorites
+MostVisitedPagesUpdateTip=The current browser version does not support this feature. Please upgrade to Maxthon version 4.4.2.2000 and above.
